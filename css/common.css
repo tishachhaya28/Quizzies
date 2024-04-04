@@ -80,11 +80,22 @@
   border: 2px solid #22495A;
   border-radius: 5px;
 }
+.sign-btn:hover{
+  background-color: #22495A;
+  color: #F4EFEB;
+  transition: 0.5s ease-in-out ;
+}
 .log-btn{
   background-color: #22495A;
   color: #F4EFEB;
   border: 2px solid #22495A;
   border-radius: 5px;
+}
+.log-btn:hover{
+  background-color: transparent;
+  color: #22495A;
+  border: 2px solid #22495A;
+  transition: 0.5s ease-in-out ;
 }
 .submit-footer{
   border: 1px solid #22495A;
