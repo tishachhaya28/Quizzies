@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: outfit;
+    src: url(../Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: boldoutfit;
+    src: url(../Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: extrabold;
+    src: url(../Outfit-ExtraBold.ttf);
+}
+@font-face {
+    font-family: semibold;
+    src: url(../Outfit-SemiBold.ttf);
+}
+.regular{
+    font-family: outfit;
+}
+.boldFont{
+    font-family: boldoutfit;
+}
+.extrabold{
+    font-family: extrabold;
+}
+.semibold{
+    font-family: semibold;
+}
+.green1{
+   color: #22495A;  
+}
+.green2{
+   color: #476572;  
+}
+.brown1{
+    color: #998F86;
+}
+.brown2{
+    color: #C3AE95;
+}
+.cream1{
+    color: #F4EFEB; 
+}
+.bg-green1{
+    background-color: #22495A;  
+}
+.bg-green2{
+    background-color: #476572;  
+}
+.bg-brown1{
+    background-color: #998F86;
+}
+.bg-brown2{
+    background-color: #C3AE95;
+}
+.bg-cream1{
+    background-color: #F4EFEB; 
+}
+.nav{
+    background-color: #F4EFEB;
+    color: #22495A;
+}
+.img{
+    width: 100%;
+}
+.nav-text{
+    color: #22495A !important; 
+}
+.ruler{
+  height: 2px;
+}
+.sign-btn{
+  background-color: transparent;
+  color: #22495A;
+  border: 2px solid #22495A;
+  border-radius: 5px;
+}
+.log-btn{
+  background-color: #22495A;
+  color: #F4EFEB;
+  border: 2px solid #22495A;
+  border-radius: 5px;
+}
+.submit-footer{
+  border: 1px solid #22495A;
+}
+
+
