@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/javascript-info.css">
+</head>
+<body>
+  
+  <!-- NAVBAR STARTS FROM HERE -->
+  <nav class="navbar navbar-expand-lg nav">
+    <div class="container-fluid container-xxl">
+      <a class="navbar-brand col-5 col-sm-4 col-md-3 col-lg-2 p-1" href="#">
+        <img src="./images/1.png" alt="Logo" class="img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav boldFont">
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">QUIZZ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">LEADER BOARD</a>
+          </li>
+          <li class=" py-1 d-block d-lg-none">
+            <button class="sign-btn py-1 px-4">SIGN UP</button>
+          </li>
+          <li class=" py-1 d-block d-lg-none">
+            <button class="log-btn py-1 px-4">LOG IN</button>
+          </li>
+        </ul>
+      </div>
+      <div class="px-3 d-none d-lg-block">
+        <button class="sign-btn py-1 px-4">SIGN UP</button>
+      </div>
+      <div class="px-3 d-none d-lg-block">
+        <button class="log-btn py-1 px-4">LOG IN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN SECTION STARTS FROM HERE -->
+  <section class="container-fluid container-xxl mt-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="brown1 extrabold">JavaScript</h1>
+      </div>
+      <div class="col-12 mt-3 mt-sm-5 px-sm-4 px-md-5">
+        <h2 class="green1 fs-3 boldFont text-center">Introduction</h2>
+        <ul class="green1 mt-4">
+          <li><p>JavaScript is a versatile scripting language primarily used for web development. It's known for its ability to add interactivity and dynamic behavior to websites.</p></li>
+          <li class="py-2"><p>JavaScript code runs on the client-side, meaning it's executed in the user's web browser, allowing for real-time manipulation of webpage elements.</p></li>
+          <li><p>It was initially created to handle client-side validation and interact with HTML elements, but its capabilities have expanded to include server-side development (Node.js) and building desktop and mobile applications.</p></li>
+        </ul>
+        <div class="col-md-12 mx-auto border-green p-2 mt-4 mx-sm-4 mx-md-0 mt-md-5 col-lg-8 mx-lg-auto col-xl-6">
+          <img src="./images/serverdemo.png" alt="Server-Demo" class="img">
+        </div>
+      </div>      
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-5">
+    <div class="row">
+      <div class="col-12 d-none d-md-block px-md-5">
+        <h2 class="green1 fs-3 boldFont text-center px-md-3">Differance between Scripting and Programming language</h2>
+        <table class="border-brown mt-5 text-center">
+          <thead class="green1 bg-cream1">
+            <tr>
+              <th>Feature</th>
+              <th>Scripting Language</th>
+              <th>Programming Language</th>
+            </tr>
+          </thead>
+          <tbody class="green1">
+            <tr>
+              <td>Execution Environment</td>
+              <td>Interpreted, executed directly by an interpreter or runtime environment</td>
+              <td>Can be compiled into machine code or interpreted</td>
+            </tr>
+            <tr>
+              <td>Typical Use Cases</td>
+              <td>Automation, web development, rapid prototyping</td>
+              <td>System software, application development, high-performance computing</td>
+            </tr>
+            <tr>
+              <td>Syntax and Paradigms</td>
+              <td>Simpler syntax, higher-level abstractions, multiple paradigms supported</td>
+              <td>May have more complex syntax, tailored for specific paradigms</td>
+            </tr>
+            <tr>
+              <td>Performance</td>
+              <td>Generally slower due to interpretation at runtime, optimizations may improve performance</td>
+              <td>Typically faster due to compilation, can utilize various optimizations</td>
+            </tr>
+            <tr>
+              <td>Development Workflow</td>
+              <td>Shorter development cycles, immediate results without compilation</td>
+              <td>Longer development cycles, may require compilation and build processes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-5 d-md-none">
+    <div class="row">
+      <div class="col-12 px-sm-4">
+        <h2 class="green1 fs-3 boldFont text-center">Differance between Scripting and Programming language</h2>
+        <h3 class="green2 fs-4 mt-4 text-center">Scripting language</h3>
+        <ul class="green1 mt-3">
+          <li><p>Interpreted, executed directly by an interpreter or runtime environment</p></li>
+          <li class="py-2"><p>Automation, web development, rapid prototyping</p></li>
+          <li><p>Simpler syntax, higher-level abstractions, multiple paradigms supported</p></li>
+          <li class="py-2"><p>Generally slower due to interpretation at runtime, optimizations may improve performance</p></li>
+          <li><p>Shorter development cycles, immediate results without compilation</p></li>
+        </ul>
+
+        <h3 class="green2 fs-4 mt-4 text-center">Programming language</h3>
+        <ul class="green1 mt-3">
+          <li><p>Can be compiled into machine code or interpreted</p></li>
+          <li class="py-2"><p>System software, application development, high-performance computing</p></li>
+          <li><p>May have more complex syntax, tailored for specific paradigms</p></li>
+          <li class="py-2"><p>Typically faster due to compilation, can utilize various optimizations</p></li>
+          <li><p>Longer development cycles, may require compilation and build processes</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-5">
+    <div class="row">
+      <!-- Variable Topic  -->
+      <div class="col-12 px-sm-4 px-md-5">
+        <h2 class="green1 fs-3 boldFont text-center">Variables</h2>
+        <ul class="green1 mt-3">
+          <li><p><span class="brown1 medium fs-5">var : </span>Declares a variable globally or locally to an entire function, regardless of block scope.</p></li>
+          <li class="py-2"><p><span class="brown1 medium fs-5">let : </span>Declares a block-scoped variable. Variables declared with let are limited to the block in which they are defined.</p></li>
+          <li><p><span class="brown1 medium fs-5">const : </span>Declares a constant variable whose value cannot be reassigned. It also has block scope like `let`.</p></li>
+        </ul>
+      </div>
+      <!-- data type topic -->
+      <div class="col-12 mt-4 px-sm-4 px-md-5">
+        <h2 class="green1 fs-3 boldFont text-center">Data Types</h2>
+        <h3 class="green2 fs-4 text-center text-sm-start mt-3">Primitive Data Types</h3>
+        <ul class="green1 mt-3">
+          <li><p><span class="brown1 medium fs-5">Number : </span>Represents numeric data, including integers and floating-point numbers.</p></li>
+          <li class="py-2"><p><span class="brown1 medium fs-5">String : </span>Represents textual data enclosed within single `(')` or double `(")` quotes.</p></li>
+          <li><p><span class="brown1 medium fs-5">Boolean : </span>Represents a logical value of true or false.</p></li>
+          <li class="py-2"><p><span class="brown1 medium fs-5">Undefined : </span>Represents an undefined value.</p></li>
+          <li><p><span class="brown1 medium fs-5">Null : </span>Represents an intentional absence of any object value.</p></li>
+          <li class="py-2"><p><span class="brown1 medium fs-5">Symbol (ES6) : </span>Represents a unique identifier.</p></li>
+        </ul>
+        <h3 class="green2 fs-4 text-center text-sm-start mt-3">Complex Data Types</h3>
+        <ul class="green1 mt-3">
+          <li><p><span class="brown1 medium fs-5">Object : </span>Represents a collection of key-value pairs. Objects can contain other objects, arrays, functions, and more.</p></li>
+          <li class="py-2"><p><span class="brown1 medium fs-5">Array :</span>Represents a collection of elements indexed by contiguous integers. Arrays can contain any data type, including other arrays.</p></li>
+        </ul>
+      </div>
+      <!-- BASIC PROGRAM OF JAVASCRIPT -->
+      <div class="col-12 px-sm-4 px-md-5 mt-3 bg-cream1 py-5">
+        <h2 class="green1 text-center boldFont">Basic First Program</h2>
+        <div class="ps-2 mt-3" style="font-family: monospace;">
+          <div>
+            <h3 class="green2 medium">Variable</h3>
+            <p class="text-secondary"><span class="brown1">var</span><span class="green1"> X </span> = <span class="brown2"> 10 ;</span> // Declares a variable x and assigns the value 10 to it</p>
+            <p class="text-secondary py-2"><span class="brown1">let</span><span class="green1"> y </span> = <span class="brown2"> "Hello" ;</span> // Declares a block-scoped variable y with the value "Hello"</p>
+            <p class="text-secondary"><span class="brown1">const</span><span class="green1"> PI </span> = <span class="brown2"> 3.14 ;</span> // Declares a constant variable PI with the value 3.14</p>
+          </div>
+          <div class="mt-2">
+            <h3 class="green2 py-2 medium">Data Type</h3>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> num </span> = <span class="brown2"> 5 ;</span> // Number data type</p>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> name </span> = <span class="brown2"> "John" ;</span> // String data type</p>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> isTrue </span> = <span class="brown2"> true ;</span> // Boolean data type</p>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> empty </span> = <span class="brown2"> undefined ;</span> // Undefined data type</p>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> noValue </span> = <span class="brown2"> null ;</span> // Null data type</p>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> symbol </span> = <span class="brown2"> Symbol("foo") ;</span> // Symbol data type</p>
+            
+            <h4 class="green1 mt-2 medium">Complex Datatype</h4>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> person </span> = <span class="brown2"> { name: "Alice", age: 30 } ;</span> // Object data type</p>
+            <p class="text-secondary"><span class="brown1">let</span><span class="green1"> colors </span> = <span class="brown2"> ["red", "green", "blue"] ;</span> // Array data type (a type of object)</p>
+            <p class="text-secondary pt-3 pb-2">// Accessing array elements</p>
+            <p class="text-secondary"><span class="brown1">console</span><span class="green1">.log</span> = <span class="brown2">(colors[0]) ;</span> // Output: "red"</p>
+            <p class="text-secondary"><span class="brown1">console</span><span class="green1">.log</span> = <span class="brown2">(colors.length) ;</span> // Output: 3 (length of the array)</p>
+          </div> 
+        </div>
+      </div>  
+    </div>
+  </section>
+
+  <!-- operator section -->
+  <section class="container-fluid container-xxl mt-5">
+    <div class="row">
+      <div class="col-12 px-sm-4 px-md-5">
+        <h1 class="green1 text-center boldFont fs-3">Operators</h1>
+        <ul class="green1 pt-2">
+          <li><p>JavaScript supports a wide range of operators for performing operations on variables and values. These include arithmetic operators (+, -, *, /), assignment operators (=, +=, -=), </p></li>
+          <li class="pt-2"><p>Understanding operators is essential for performing calculations, making decisions in code (using conditional statements), and controlling the flow of execution (using loops).</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- function section  -->
+  <section class="container-fluid container-xxl mt-5">
+    <div class="row">
+      <div class="col-12 px-sm-4 px-md-5">
+        <h1 class="green1 text-center boldFont fs-3">Functions</h1>
+        <ul class="green1 pt-2">
+          <li><p>Functions are blocks of reusable code designed to perform a specific task or calculate a value.</p></li>
+          <li class="pt-2"><p>JavaScript functions can be declared using the <span class="medium"> `functions`</span> keyword or as arrow functions (introduced in ECMAScript 6).</p></li>
+          <li><p>They can accept parameters (inputs) and return values (outputs), making them flexible and versatile building blocks of JavaScript programs.</p></li>
+        </ul>
+      </div>
+      <div class="col-12 bg-cream1 px-sm-4 px-md-5 mt-2">
+        <div style="font-family: monospace;" class="px-4 py-4">
+          <h2 class="green2 text-center medium fs-4 text-sm-start">Example Code</h2>
+          <p><span class="brown1">function</span><span class="green1"> addNumbers<span><spaclass="green2"> (num1, num2)</span></p></p>
+          <p>{</p> 
+          <p>&nbsp;<span class="text-secondary"> // Inside the function, add num1 and num2 together<span></p>
+          <p>&nbsp;&nbsp;<span class="brown1">let</span><span class="green1"><span class="green1"> sum<span> <span class="green2"> num1 + num2 ;</span></p>
+          <p>&nbsp;<span class="text-secondary"> // Return the result of the addition</span></p>
+          <p>&nbsp;&nbsp;<span class="brown1">return</span><span class="green1"> sum ;</span></p>
+          <p>}</p>     
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BULT-IN FUNCTION STARTS HERE -->
+  <section class="container-fluid container-xxl mt-5">
+    <div class="row">
+      <div class="col-12 px-sm-4 px-md-5">
+        <h2 class="green1 text-center boldFont fs-3">Built-in Functions</h2>
+      </div>
+      <div class="col-12 px-sm-4 px-md-5">
+        <ul class="green1 mt-3">
+          <li><p><span class="brown1 medium fs-5">String Functions : </span>These functions operate on strings and can perform tasks such as concatenation, substring extraction, searching for substrings, and converting case.</p></li>
+          <li class="py-2"><p><span class="brown1 medium fs-5">Number Functions : </span>These functions operate on numbers and can perform tasks such as rounding, converting between different number formats, and generating random numbers.</p></li>
+          <li><p><span class="brown1 medium fs-5">Array Functions : </span>These functions operate on arrays and can perform tasks such as adding or removing elements, searching for elements, sorting, and iterating through arrays.</p></li>
+          <li class="py-2"><p><span class="brown1 medium fs-5">Math Functions : </span>These functions are part of the <span class="boldFont">`Math`</span> object and can perform mathematical calculations such as trigonometric functions, logarithms, exponentiation, and more.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT HANDLING IN JS -->
+  <section class="container-fluid container-xxl mt-5">
+    <div class="row">
+      <div class="col-12 px-sm-4 px-md-5">
+        <h2 class="green1 text-center boldFont fs-3">Event Handling</h2>
+      </div>
+      <div class="col-12 px-sm-4 px-md-5">
+        <ul class="green1">
+          <li><p>Event handling is a fundamental aspect of web development that allows JavaScript code to respond to user interactions with a webpage, such as mouse clicks, keyboard inputs, or page loads.</p></li>
+          <li class="py-2"><p>JavaScript event handlers are functions that are executed when a specific event occurs on a webpage element, such as a button click or form submission.</p></li>
+          <li><p>Event handling enables developers to create interactive and dynamic user experiences by adding behavior to HTML elements and responding to user actions in real-time.</p></li>
+        </ul>
+      </div>
+      <!-- sub heading starts -->
+      <div class="col-12 px-sm-4 px-md-5">
+        <h3 class="green2 text-center boldFont fs-5 text-sm-start my-3">What are Events</h3>
+        <ul class="green1">
+          <li><p>Events are actions or occurrences that happen in the browser.</p></li>
+          <li class="py-2"><p>Examples include clicking a button, pressing a key, or resizing the window.</p></li>
+        </ul>
+        <h3 class="green2 text-center boldFont fs-5 text-sm-start my-3">How Event Handling Works</h3>
+        <ul class="green1">
+          <li><p>Event handling is about responding to these actions.</p></li>
+          <li class="py-2"><p>You can write functions (event handlers) to react when events occur.</p></li>
+        </ul>
+      </div> 
+      <!-- example starts -->
+      <div class="col-12 bg-cream1">
+        <div style="font-family: monospace;" class="py-3 ps-sm-4 ps-md-5 ps-4">
+          <h4 class="green2 boldFont fs-6">HTML</h4>
+          <p><span class="brown1">&lt;button&gt;</span><span class="green2"> id </span> = <span class="brown2">"myButton"</span><span class="brown1"> => </span> <span class="green1">Click Me<span><span class="brown1">&lt;&#x2f;button&gt;</span></p>
+          <h4 class="green2 boldFont mt-3 fs-6">JavaScript</h4>
+          <p class="green1"><span class="brown1">document.</span><span class="green2">getElementById </span> ('myButton'). <span class="brown2">addEventListener</span><span class="brown1">('click', function() </span></p>
+          <p>
+            { <span class="green1">alert<span><span class="brown1">('Button clicked!');</span> });
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOM MANUPULATION STARTS FROM HERE -->
+  <section class="container-fluid container-xxl mt-5 mt-sm-5">
+    <div class="row">
+      <div class="col-12 px-sm-5">
+        <h2 class="green1 text-center boldFont fs-3">Event Handling</h2>
+      </div>
+      <!-- first section -->
+      <div class="col-12 px-sm-5 mt-3">
+        <h3 class="green2 text-center text-sm-start fs-4 medium">Accessing Elements</h3>
+        <p class="text-center text-sm-start mt-2">You can use various methods to access elements in the DOM, such as <span class="brown1 medium">`getElementById`</span>,  <span class="brown1 medium">`getElementsByClassName`</span> , <span class="brown1 medium">`getElementsByTagName`</span>, and <span class="brown1 medium">`querySelector`</span> .</p>
+      </div>
+      <!-- example of first -->
+      <div class="col-12 px-sm-5 mt-4 bg-cream1 py-4">
+        <h4 class="green2 text-center text-sm-start fs-5 medium">Example</h4>
+        <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+          <p class="text-secondary">// Access an element by its ID</p>
+          <p class="py-1">
+            <span class="brown1">var </span>
+            <span class="green2">elementById </span>
+            = <span class="brown2">document.</span>
+            <span class="green1">getElementById</span>
+            <span class="brown1">('myElementId');</span>
+          </p> 
+          <p class="text-secondary pt-2">// Access elements by class name</p>
+          <p class="py-1">
+            <span class="brown1">var </span>
+            <span class="green2">elementsByClass </span>
+            = <span class="brown2">document.</span>
+            <span class="green1">getElementsByClassName</span>
+            <span class="brown1">('myClassName');</span>
+          </p>  
+          <p class="text-secondary pt-2">// Access elements by tag name</p>
+          <p class="py-1">
+            <span class="brown1">var </span>
+            <span class="green2">elementsByTag </span>
+            = <span class="brown2">document.</span>
+            <span class="green1">getElementsByTagName</span>
+            <span class="brown1">('div');</span>
+          </p>  
+          <p class="text-secondary pt-2">// Access the first element matching a CSS selector</p>
+          <p class="py-1">
+            <span class="brown1">var </span>
+            <span class="green2">elementBySelector </span>
+            = <span class="brown2">document.</span>
+            <span class="green1">querySelector</span>
+            <span class="brown1">('.myClass');</span>
+          </p>  
+        </div>
+      </div>
+      <!-- second section -->
+      <div class="col-12 mt-4 px-sm-5">
+        <h3 class="green2 text-center text-sm-start fs-4 medium">Modifying Elements</h3>
+        <p class="mt-2 ps-3 ps-sm-0">You can modify various attributes and properties of DOM elements, such as <span class="brown1 medium">`innerHTML`</span>, <span class="brown1 medium">`textContent`</span>,<span class="brown1 medium"> `style`</span>,<span class="brown1 medium"> `setAttribute`</span>, and<span class="brown1 medium">`classList`</span>.</p>
+      </div>
+      <!-- second example -->
+      <div class="col-12 px-sm-5 bg-cream1 py-4 mt-3">
+        <h4 class="green2 text-center text-sm-start fs-5 medium">Example</h4>
+        <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+          <p class="text-secondary">// Change inner HTML content</p>
+          <p><span class="brown1">elementById</span><span class="green2">.innerHTML</span> = <span class="brown2">'&lt;p&gt;</span><span class="green2">New content</span><span class="brown2">'&lt;&#x2f;p&gt;</span></p>
+          <p class="text-secondary pt-2">// Change text content</p>
+          <p><span class="brown1">elementById</span><span class="green2">.textContent</span> = <span class="green2">'New text' ;</span></p>
+          <p class="text-secondary pt-2">// Change CSS styles</p>
+          <p><span class="brown1">elementById</span><span class="green2">.style</span><span class="green2">.color </span> = <span class="brown2">'red';</span></p>
+          <p class="text-secondary pt-2">// Add a CSS class</p>
+          <p><span class="brown1">elementById</span><span class="green2">.classList</span><span class="green2">.add </span><span class="brown2">elementById</span><span class="green2">('newClass');</span></p>
+          <p class="text-secondary pt-2">// Set an attribute</p>
+          <p><span class="brown1">elementById</span><span class="green2">.setAttribute</span><span class="green2">('data-id', '123'); </span></p>
+        </div>
+      </div>  
+      <!-- Third section -->
+      <div class="col-12 mt-4 px-sm-5">
+        <h3 class="green2 text-center text-sm-start fs-4 medium">Creating and Appending Elements</h3>
+        <p class="mt-2 ps-3 ps-sm-0">You can create new elements and append them to the DOM using methods like <span class="brown1 medium">`createElement`</span> and <span class="brown1 medium">`appendChild`</span>.</p>
+      </div>
+      <!-- Third example -->
+      <div class="col-12 px-sm-5 bg-cream1 py-4 mt-3">
+        <h4 class="green2 text-center text-sm-start fs-5 medium">Example</h4>
+        <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+          <p class="text-secondary">// Create a new paragraph element</p>
+          <p><span class="brown1">var</span><span class="green2"> newParagraph</span> = <span class="brown2">document.</span><span class="green2">createElement</span><span class="brown2">('p');</span></p>
+          <p class="text-secondary pt-2">// Set its text content</p>
+          <p><span class="brown1">newParagraph</span><span class="green2">.textContent</span> = <span class="green2">'New paragraph' ;</span></p>
+          <p class="text-secondary pt-2">// Append it to an existing element</p>
+          <p><span class="brown1">document</span><span class="green2">.body</span><span class="brown2">.appendChild</span> <span class="green2">(newParagraph);</span></p>
+        </div>
+      </div>  
+      <!-- fourth section -->
+      <div class="col-12 mt-4 px-sm-5">
+        <h3 class="green2 text-center text-sm-start fs-4 medium">Removing Elements</h3>
+        <p class="mt-2 ps-3 ps-sm-0">You can remove elements from the DOM using methods like <span class="brown1 medium">`removeChild`</span>.</p>
+      </div>
+      <!-- fourth example -->
+      <div class="col-12 px-sm-5 bg-cream1 py-4 mt-3 mb-5">
+        <h4 class="green2 text-center text-sm-start fs-5 medium">Example</h4>
+        <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+          <p class="text-secondary">// Remove an element</p>
+          <p>
+            <span class="brown1">var</span>
+            <span class="green2"> elementToRemove</span>
+             = <span class="brown2">document.</span>
+            <span class="green2">getElementById</span>
+            <span class="brown1">(elementToRemove);</span>
+            <span class="brown2">('elementToRemove');</span>
+          </p>
+          <p class="text-secondary pt-2">// Set its text content</p>
+          <p>
+            <span class="brown1">newParagraph</span>
+            <span class="green2">.textContent</span> 
+            = <span class="green2">'New paragraph' ;</span>
+          </p>
+          <p>
+            <span class="brown1">elementToRemove</span>
+            <span class="green2">.parentNode</span>
+            <span class="brown2">.removeChild</span> 
+            <span class="green2">(elementToRemove);</span>
+          </p>
+        </div>
+      </div>  
+    </div>
+  </section>
+
+  <!-- FOOTER STARTS FROM HERE -->
+  <footer class="bg-cream1 mt-5">
+    <div class="container-fluid container-fluid-xl container-xxl bg-cream1">
+      <div class="row py-4 px-1 px-sm-3 px-lg-3 px-xxl-1 ">
+        <div class="col-12 col-lg-7">
+          <h2 class="green1 boldFont">Contact Us</h2>
+          <p class="green1 d-none d-sm-block">Have questions, suggestions, or just want to say hi? We'd love to hear from you! Drop us a line at contact@quizies.com and we'll get back to you as soon as possible.</p>
+        </div>
+        <div class="col-12 col-lg-5 align-items-lg-center d-lg-flex justify-content-lg-end">
+          <form action="" class="">
+            <div class="input-group">
+              <input type="email" placeholder="youremail@gmail.com" class="cream1 bg-green1 border-0 py-1 px-2 px-md-4 d-flex align-items-center">
+              <input type="submit" value="SUBMIT" class="submit-footer px-3 px-md-4 green1">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bg-brown2">
+      <div class="container-fluid container-fluid-xl container-xxl">
+        <div class="row row-cols-5">
+          <div class="col-12 d-flex justify-content-center justify-content-sm-start">
+            <div class="col-8 col-sm-4 p-3 my-2 p-md-4 col-lg-3 col-xl-2">
+              <a href="#" class="">
+                <img src="images/2.png" alt="Logo" class="img">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 text-center col-sm-6 col-lg-4 col-xl text-xl-start ps-xl-4">
+            <h1 class="green1 py-2 boldFont fs-3 px-xl-2">About Us</h1>
+            <p class="cream1 px-2">Welcome to <span class="green1">Quizzies</span>, your ultimate destination for fun and knowledge! We're passionate about quizzes and trivia, dedicated to providing you with an engaging platform to test your wits and learn something new every day.</p>
+            <p class="green1 px-xl-2">Privacy Policy</p>
+          </div>
+          <div class="text-center col-12 pt-2 col-sm-6 pt-sm-0 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Learning path</h1>
+            <ul class="list-unstyled cream1">
+              <li>Web Development</li>
+              <li>Python Developer</li>
+              <li>Coding</li>
+              <li>Foundations</li>
+              <li>Front-end for Beginners</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 col-sm-6 col-lg-4 pt-lg-0 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Begginer's Quiz</h1>
+            <ul class="list-unstyled cream1">
+              <li>Scratch</li>
+              <li>Blockly</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Intermediate Quiz</h1>
+            <ul class="list-unstyled cream1">
+              <li>JAVA</li>
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>PHP</li>
+              <li>Swift</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Frameworks</h1>
+            <ul class="list-unstyled cream1">
+              <li>Django(Python)</li>
+              <li>Ruby on Rails (Ruby)</li>
+              <li>Express.js (JavaScript - Node.js)</li>
+              <li>Laravel (PHP)</li>
+              <li>ASP.NET Core (C#)</li>
+              <li>Angular (JavaScript/TypeScript)</li>
+              <li>React.js (JavaScript)</li>
+              <li>Flutter (Dart)</li>
+              <li>React Native (JavaScript)</li>
+              <li>NativeScript (JavaScript)</li>
+              <li>Unity (C#)</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-3 pt-lg-0 col-sm-6 col-lg-4 col-xl-12 py-lg-0">
+            <h1 class="green1 py-2 boldFont fs-3">Follow Us</h1>
+            <ul class="list-unstyled cream1 d-flex justify-content-center col-xl-4 mx-xl-auto">
+              <li class="col-1 mx-2"><a href="#"><img src="images/facebook.png" alt="facebook logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/instagram.png" alt="instagram logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/twitter.png" alt="twitter logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/linkedin.png" alt="linkdin logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/email.png" alt="gmail logo" class="img"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center">
+        <div class="ruler bg-cream1"></div>
+        <div class="py-3 py-lg-4">
+          <b class="green1">Copyright © 2024 Quizzies. All rights reserved.</b>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
