@@ -19,8 +19,15 @@
     font-family: semibold;
     src: url(../Outfit-SemiBold.ttf);
 }
+@font-face {
+    font-family: medium;
+    src: url(../Outfit-Medium.ttf);
+}
 .regular{
     font-family: outfit;
+}
+.medium{
+    font-family: medium;
 }
 .boldFont{
     font-family: boldoutfit;
@@ -100,5 +107,17 @@
 .submit-footer{
   border: 1px solid #22495A;
 }
-
+.quiz{
+    background-color: #22495A;
+    color: #F4EFEB;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.quiz:hover{
+    background-color: transparent;
+    color: #22495A;
+    border: 2px solid #22495A;
+    box-shadow: 1px 1px 10px #22495a71;
+    transition: 0.5s ease-in-out;
+}
 
