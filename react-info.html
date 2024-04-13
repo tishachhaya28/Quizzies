@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React-JS</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/react-info.css">
+</head>
+
+<body>
+    <!-- NAVBAR STARTS FROM HERE -->
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid container-xxl">
+            <a class="navbar-brand col-5 col-sm-4 col-md-3 col-lg-2 p-1" href="#">
+                <img src="./images/1.png" alt="Logo" class="img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav boldFont">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">QUIZZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">LEADER BOARD</a>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="sign-btn py-1 px-4">SIGN UP</button>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="log-btn py-1 px-4">LOG IN</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="sign-btn py-1 px-4">SIGN UP</button>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="log-btn py-1 px-4">LOG IN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN SECTION STARTS FROM HERE -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <h1 class="brown1 extrabold text-center">React JS</h1>
+            </div>
+            <div class="col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont fs-3 text-center mt-4 mt-sm-5">Introduction</h2>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>React.js is a JavaScript library used for building user interfaces, particularly for
+                            single-page applications. Developed by Facebook, React.js allows developers to create
+                            interactive UI components that efficiently update and render data as it changes. It follows
+                            a component-based architecture, where UIs are composed of independent, reusable components.
+                        </p>
+                    </li>
+                    <li class="py-2">
+                        <p>React is a JavaScript library for building user interfaces.</p>
+                    </li>
+                    <li>
+                        <p>It was developed by Facebook and released as open-source.</p>
+                    </li>
+                    <li class="py-2">
+                        <p>React allows developers to create reusable UI components.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- WHY USE REACT TOPIC -->
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">Why use React.js</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">Component-Based Architecture :</span> React.js encourages a modular
+                    approach to building UIs, making it easier to manage complex applications by breaking them down into
+                    smaller, reusable components.
+                </p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">Virtual DOM :</span> React.js uses a virtual representation of the DOM,
+                    which allows it to efficiently update and render UI components, leading to better performance
+                    compared to traditional DOM manipulation methods.
+                </p>
+            </li>
+            <li>
+                <p><span class="brown1 medium">Declarative Syntax :</span> React.js uses a declarative programming
+                    paradigm, allowing developers to describe the desired UI state, and React takes care of updating the
+                    DOM to match that state, reducing the complexity of managing UI updates.</p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">JSX :</span> React.js introduces JSX, a syntax extension that allows
+                    developers to write HTML-like code within JavaScript, making it easier to visualize and work with UI
+                    components.</p>
+            </li>
+            <li>
+                <p><span class="brown1 medium">Community and Ecosystem :</span> React.js has a large and active
+                    community, with a vast ecosystem of libraries, tools, and resources available for building and
+                    maintaining React applications.</p>
+            </li>
+        </ul>
+    </section>
+    <!-- Component-Based Architecture starts from here -->
+    <section class="container-fluid container-xxl mt-4 mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-5 px-md-5">
+                <h2 class="green1 boldFont fs-3 text-center">Component-Based Architecture</h2>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont mt-3">Components</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>Self-contained, reusable UI elements.</p>
+                    </li>
+                    <li>
+                        <p>Encapsulate structure and behavior.</p>
+                    </li>
+                    <li>
+                        <p>Written in JSX (JavaScript XML).</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont">Reusability and Composition</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>Promote modular UI development.</p>
+                    </li>
+                    <li>
+                        <p>Compose together to build complex interfaces.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont">Props (Properties)</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>Read-only data passed from parent to child.</p>
+                    </li>
+                    <li>
+                        <p>Make components customizable and reusable.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont">State</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>Represents component-specific data.</p>
+                    </li>
+                    <li>
+                        <p>Managed internally and mutable using <span class="brown1 medium">`setState`</span>.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont">Component Lifecycle</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>Phases like mounting, updating, and unmounting.</p>
+                    </li>
+                    <li>
+                        <p>Methods like <span class="brown1 medium">`componentDidMount`</span>, <span
+                                class="brown1 medium">`componentDidMount`</span>.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont">Component Tree</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>Hierarchical structure of components.</p>
+                    </li>
+                    <li>
+                        <p>Parent-child relationships define layout and composition.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIRTUAL DOM TOPIC -->
+    <section class="container-fluid container-xxl mt-4 mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-5 px-md-5">
+                <h2 class="green1 boldFont fs-3 text-center">Virtual DOM</h2>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>The Virtual DOM is a lightweight copy of the actual DOM (Document Object Model) kept in memory by React.</p>
+                    </li>
+                    <li class="py-2">
+                        <p>It is a representation of the UI components and their structure.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont mt-3">How Does it Work?</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>When changes are made to the state or props of a component, React creates a new Virtual DOM.</p>
+                    </li>
+                    <li class="py-2">
+                        <p>React then compares this new Virtual DOM with the previous one to identify the differences (reconciliation).</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont mt-3">Diffing Algorithm:</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>React efficiently identifies the minimum number of changes needed to update the actual DOM.</p>
+                    </li>
+                    <li class="py-2">
+                        <p>It computes the difference between the new Virtual DOM and the previous one, known as "diffing".</p>
+                    </li>
+                    <li>
+                        <p>Only the necessary changes are then applied to the real DOM.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont mt-3">Benefits:</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p><span class="brown1 medium">Performance:</span> Minimizes DOM manipulation and improves rendering speed.</p>
+                    </li>
+                    <li class="py-2">
+                        <p><span class="brown1 medium">Efficiency:</span> Reduces the number of updates to the actual DOM, leading to better overall performance.</p>
+                    </li>
+                    <li>
+                        <p><span class="brown1 medium">Simplifies Development:</span> Developers can work with a virtual representation of the DOM, making it easier to reason about complex UIs.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont mt-3">Reconciliation:</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>React's reconciliation process ensures that the UI stays in sync with the application state.</p>
+                    </li>
+                    <li class="py-2">
+                        <p>It efficiently updates only the parts of the DOM that have changed, rather than re-rendering the entire DOM.</p>
+                    </li>
+                </ul>
+                <h3 class="fs-4 green2 text-center text-sm-start boldFont mt-3">Conclusion:</h3>
+                <ul class="green1 mt-3">
+                    <li>
+                        <p>The Virtual DOM is a core optimization technique used by React to improve performance and provide a better user experience.</p>
+                    </li>
+                    <li class="py-2">
+                        <p>By minimizing DOM manipulation and efficiently updating only the necessary parts of the UI, React ensures that applications are fast and responsive.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 px-sm-5 mt-4 bg-cream1 py-4">
+                <h4 class="green2 text-center text-sm-start fs-5 medium">Example</h4>
+                <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+                  <p class="text-secondary">// React Component Example</p>
+                  <p class="py-1">
+                    <span class="green1">import </span>
+                    <span class="brown1">React, </span>
+                    <span class="green2">{ useState } </span>
+                    <span class="brown1">from </span>
+                    <span class="green2">'react';</span>
+                  </p> 
+                  <p class="py-1">
+                    <span class="green1">function </span>
+                    <span class="green2">Counter() </span>
+                    <span class="brown1">{</span>
+                  </p>
+                  <p class="py-1 ps-3">
+                    <span class="green2">const </span>
+                    <span class="brown1">[count, setCount] = </span>
+                    <span class="green2">useState(0);</span>
+                  </p>
+                  <p class="py-1 ps-3">
+                    <span class="green2">const </span>
+                    <span class="brown1">increment = () </span>
+                    <span class="brown1">=> {</span>
+                  </p>
+                  <p class="py-1 ps-4">
+                    <span class="green2">setCount(count + 1);</span>
+                  </p>
+                  <p class="py-1 ps-3">
+                    <span class="brown1">};</span>
+                  </p>
+                  <p class="py-1">
+                    <span class="green2">return (</span>
+                  </p>
+                  <p class="py-1 ps-3">
+                    <span class="brown1">&lt;div&gt;</span>
+                  </p>
+                  <p class="py-1 ps-4">
+                    <span class="brown1">&lt;h2&gt;Count: </span>
+                    <span class="green2">{count}</span>
+                    <span class="brown1">&lt;&#x2f;h2&gt;</span>
+                  </p>
+                  <p class="py-1 ps-4">
+                    <span class="brown1">&lt;button </span>
+                    <span class="green2">onClick</span>
+                    <span class="brown1">={increment}&gt;</span>
+                    <span class="green2">Increment</span>
+                    <span class="brown1">&lt;&#x2f;button&gt;</span>
+                  </p>
+                  <p class="py-1 ps-3">
+                    <span class="brown1">&lt;&#x2f;div&gt;;</span>
+                  </p>
+                  <p class="py-1">
+                    <span class="brown1">);</span>
+                  </p>
+                  <p class="py-1">
+                    <span class="brown1">}</span>
+                  </p>
+                  <p class="py-1">
+                    <span class="green2">export default Counter;</span>
+                  </p>
+                </div>
+              </div>                           
+        </div>
+    </section>
+
+    <section class="container-fluid container-xxl mt-5 mt-sm-5">
+        <div class="row">
+          <div class="col-12 px-sm-5">
+            <h2 class="green1 text-center boldFont fs-3">Event Handling</h2>
+          </div>
+          <!-- JSX Definition -->
+          <div class="col-12 px-sm-5 mt-3">
+            <h3 class="green2 text-center text-sm-start fs-4 medium">JSX Definition</h3>
+            <p class="text-center text-sm-start mt-2 green1">JSX is a syntax extension that allows you to write HTML within JavaScript, facilitating the creation of React components.</p>
+          </div>
+      
+          <!-- Simplified Syntax -->
+          <div class="col-12 px-sm-5 mt-4 py-4 bg-cream1">
+            <h4 class="green2 text-center text-sm-start fs-5 medium">Simplified Syntax</h4>
+            <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+              <p class="text-secondary">// JSX allows combining HTML-like syntax with JavaScript</p>
+              <p><span class="brown1">const </span><span class="green2">name </span>= <span class="brown2">'John Doe';</span></p>
+              <p><span class="brown1">const </span><span class="green2">greeting </span>= <span class="brown2">&lt;p&gt;</span><span class="green2">Hello, {name}!</span><span class="brown2">&lt;&#x2f;p&gt;;</span></p>
+            </div>
+          </div>
+      
+          <!-- Readability and Maintainability -->
+          <div class="col-12 px-sm-5 mt-4 bg-cream1 py-4">
+            <h4 class="green2 text-center text-sm-start fs-5 medium">Readability and Maintainability</h4>
+            <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+              <p class="text-secondary">// JSX enhances code readability by resembling HTML</p>
+              <p><span class="brown1">const </span><span class="green2">button </span>= <span class="brown2">&lt;button onClick={handleClick}&gt;</span><span class="green2">Click me</span><span class="brown2">&lt;&#x2f;button&gt;;</span></p>
+            </div>
+          </div>
+      
+          <!-- Integration with JavaScript -->
+          <div class="col-12 px-sm-5 mt-4 py-4 bg-cream1">
+            <h4 class="green2 text-center text-sm-start fs-5 medium">Integration with JavaScript</h4>
+            <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+              <p class="text-secondary">// JSX allows embedding JavaScript expressions within HTML-like syntax</p>
+              <p><span class="brown1">const </span><span class="green2">isLoggedIn </span>= <span class="brown2">true;</span></p>
+              <p><span class="brown1">const </span><span class="green2">message </span>= isLoggedIn ? <span class="brown2">&lt;p&gt;</span><span class="green2">Welcome back!</span><span class="brown2">&lt;&#x2f;p&gt;</span> : <span class="brown2">&lt;p&gt;</span><span class="green2">Please log in</span><span class="brown2">&lt;&#x2f;p&gt;;</span></p>
+            </div>
+          </div>
+      
+          <!-- Compile-Time Transformation -->
+          <div class="col-12 px-sm-5 mt-4 py-4 bg-cream1">
+            <h4 class="green2 text-center text-sm-start fs-5 medium">Compile-Time Transformation</h4>
+            <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+              <p class="text-secondary">// JSX code is compiled into JavaScript before execution</p>
+              <p><span class="brown1">// JSX</span></p>
+              <p><span class="green2">const element </span>= <span class="brown2">&lt;h1&gt;</span><span class="green2">Hello, JSX!</span><span class="brown2">&lt;&#x2f;h1&gt;;</span></p>
+              <p><span class="brown1">// Transformed JavaScript</span></p>
+              <p><span class="green2">const element </span>= React.createElement('h1', null, 'Hello, JSX!');</p>
+            </div>
+          </div>
+      
+          <!-- Component-Based Development -->
+          <div class="col-12 px-sm-5 mt-4 bg-cream1 py-4">
+            <h4 class="green2 text-center text-sm-start fs-5 medium">Component-Based Development</h4>
+            <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+              <p class="text-secondary">// JSX aligns with React's component-based architecture</p>
+              <p><span class="green2">const Button </span>= ({ onClick, children }) =&gt; <span class="brown2">&lt;button onClick={onClick}&gt;</span>{children}<span class="brown2">&lt;&#x2f;button&gt;;</span></p>
+            </div>
+          </div>
+      
+          <!-- Tooling Support -->
+          <div class="col-12 px-sm-5 mt-4 py-4 bg-cream1">
+            <h4 class="green2 text-center text-sm-start fs-5 medium">Tooling Support</h4>
+            <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+              <p class="text-secondary">// JSX is supported by various development tools</p>
+              <p><span class="green2">const App </span>= () =&gt; <span class="brown2">&lt;div&gt;</span><span class="green2">Hello, JSX!</span><span class="brown2">&lt;&#x2f;div&gt;</span>;</p>
+            </div>
+          </div>
+      
+          <!-- Learning Curve -->
+          <div class="col-12 px-sm-5 mt-4 bg-cream1 py-4">
+            <h4 class="green2 text-center text-sm-start fs-5 medium">Learning Curve</h4>
+            <div class="ps-3 ps-sm-0 px-sm-4" style="font-family: monospace;">
+              <p class="text-secondary">// JSX is easy to learn and adopt due to its intuitive nature</p>
+              <p><span class="brown1">const element </span>= <span class="green2">&lt;h1&gt;</span><span class="brown2">Hello, JSX!</span><span class="green2">&lt;&#x2f;h1&gt;;</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- state management starts -->
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">State Management</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">Redux:</span> Redux is a predictable state container for JavaScript apps. It helps manage application state in a predictable manner by enforcing a unidirectional data flow. Actions are dispatched to modify the state, and reducers specify how the state changes in response to those actions. Redux is commonly used in large-scale applications where managing complex state interactions becomes challenging.</p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">Context API:</span> The Context API is a feature introduced in React to allow sharing state across the component tree without having to pass props manually at every level. It provides a way to pass data through the component tree without having to explicitly pass props down at every level. While it's not as powerful as Redux, it's great for simpler state management needs or when Redux might be overkill.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">Routing</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">React Router:</span> React Router is a widely-used library for handling client-side routing in React applications. It allows you to define routes and their corresponding components, enabling navigation between different views in a single-page application. React Router provides features like nested routes, route parameters, and navigation guards, making it versatile for various routing needs in React applications.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">Forms and Data Handling</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">Form Handling:</span> React provides powerful tools for handling forms, including controlled components and form validation. Controlled components ensure that form data is always synced with React state, while form validation can be implemented using built-in features like onChange event handlers and conditional rendering.</p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">Data Submission:</span> Upon form submission, React applications typically send the form data to a server for processing. This can be achieved using techniques like AJAX requests with fetch or libraries like Axios. Asynchronous form submissions allow applications to provide real-time feedback to users while processing data in the background.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">API Integration</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">Fetching Data:</span> React applications often need to fetch data from APIs to populate their UIs with dynamic content. This is commonly done using the fetch API or libraries like Axios or fetch polyfills. Data fetching is typically performed within React component lifecycle methods like componentDidMount or using React hooks like useEffect.</p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">Asynchronous Operations:</span> Since API requests are asynchronous, React applications need to handle loading states, error handling, and data manipulation when dealing with asynchronous operations. This involves displaying loading spinners, handling errors gracefully, and updating UI components based on API responses.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">Component Libraries</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">Material-UI:</span> Material-UI is a popular React UI framework that implements Google's Material Design guidelines. It provides a wide range of pre-designed and customizable UI components, including buttons, inputs, dialogs, and layouts, making it easy to build visually appealing and consistent user interfaces.</p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">Ant Design:</span> Ant Design is another widely-used React UI library that offers a rich set of components and design principles for building enterprise-level applications. It provides a comprehensive set of components, including grids, forms, navigation, and data visualization components.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">Performance Optimization</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">Memoization:</span> Memoization is a technique used to optimize React component rendering by caching the results of expensive function calls and reusing them when the same inputs occur again. This can be achieved using React's memo higher-order component or the useMemo hook.</p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">Code Splitting:</span> Code splitting involves breaking down your application's code into smaller, more manageable chunks and loading them dynamically as needed. This can significantly reduce initial bundle sizes and improve load times, especially for large React applications.</p>
+            </li>
+            <li>
+                <p><span class="brown1 medium">Virtualization:</span> Virtualization techniques like windowing or pagination can be used to render only the visible portion of long lists or tables, thereby reducing the number of DOM nodes and improving rendering performance.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="col-12 px-sm-4 px-md-5 mt-4 mt-sm-5">
+        <h2 class="green1 boldFont fs-3 text-center">Testing</h2>
+        <ul class="green1 mt-3">
+            <li>
+                <p><span class="brown1 medium">Jest:</span> Jest is a popular JavaScript testing framework that provides a simple and intuitive way to write tests for React components and applications. It offers features like snapshot testing, mocking, and assertion utilities for writing comprehensive test suites.</p>
+            </li>
+            <li class="py-2">
+                <p><span class="brown1 medium">React Testing Library:</span> React Testing Library is a testing utility for React that encourages writing tests that resemble how users interact with your application. It focuses on testing components in a way that mirrors how they are used in the actual application, promoting better test coverage and more robust test suites.</p>
+            </li>
+        </ul>
+    </section>
+    
+    <!-- FOOTER STARTS FROM HERE -->
+    <footer class="bg-cream1 mt-5">
+        <div class="container-fluid container-fluid-xl container-xxl bg-cream1">
+            <div class="row py-4 px-1 px-sm-3 px-lg-3 px-xxl-1 ">
+                <div class="col-12 col-lg-7">
+                    <h2 class="green1 boldFont">Contact Us</h2>
+                    <p class="green1 d-none d-sm-block">Have questions, suggestions, or just want to say hi? We'd love
+                        to hear from you! Drop us a line at contact@quizies.com and we'll get back to you as soon as
+                        possible.</p>
+                </div>
+                <div class="col-12 col-lg-5 align-items-lg-center d-lg-flex justify-content-lg-end">
+                    <form action="" class="">
+                        <div class="input-group">
+                            <input type="email" placeholder="youremail@gmail.com"
+                                class="cream1 bg-green1 border-0 py-1 px-2 px-md-4 d-flex align-items-center">
+                            <input type="submit" value="SUBMIT" class="submit-footer px-3 px-md-4 green1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bg-brown2">
+            <div class="container-fluid container-fluid-xl container-xxl">
+                <div class="row row-cols-5">
+                    <div class="col-12 d-flex justify-content-center justify-content-sm-start">
+                        <div class="col-8 col-sm-4 p-3 my-2 p-md-4 col-lg-3 col-xl-2">
+                            <a href="#" class="">
+                                <img src="images/2.png" alt="Logo" class="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center col-sm-6 col-lg-4 col-xl text-xl-start ps-xl-4">
+                        <h1 class="green1 py-2 boldFont fs-3 px-xl-2">About Us</h1>
+                        <p class="cream1 px-2">Welcome to <span class="green1">Quizzies</span>, your ultimate
+                            destination for fun and knowledge! We're passionate about quizzes and trivia, dedicated to
+                            providing you with an engaging platform to test your wits and learn something new every day.
+                        </p>
+                        <p class="green1 px-xl-2">Privacy Policy</p>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 pt-sm-0 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Learning path</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Web Development</li>
+                            <li>Python Developer</li>
+                            <li>Coding</li>
+                            <li>Foundations</li>
+                            <li>Front-end for Beginners</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 col-lg-4 pt-lg-0 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Begginer's Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Scratch</li>
+                            <li>Blockly</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Intermediate Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>JAVA</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
+                            <li>Ruby</li>
+                            <li>PHP</li>
+                            <li>Swift</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Frameworks</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Django(Python)</li>
+                            <li>Ruby on Rails (Ruby)</li>
+                            <li>Express.js (JavaScript - Node.js)</li>
+                            <li>Laravel (PHP)</li>
+                            <li>ASP.NET Core (C#)</li>
+                            <li>Angular (JavaScript/TypeScript)</li>
+                            <li>React.js (JavaScript)</li>
+                            <li>Flutter (Dart)</li>
+                            <li>React Native (JavaScript)</li>
+                            <li>NativeScript (JavaScript)</li>
+                            <li>Unity (C#)</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-3 pt-lg-0 col-sm-6 col-lg-4 col-xl-12 py-lg-0">
+                        <h1 class="green1 py-2 boldFont fs-3">Follow Us</h1>
+                        <ul class="list-unstyled cream1 d-flex justify-content-center col-xl-4 mx-xl-auto">
+                            <li class="col-1 mx-2"><a href="#"><img src="images/facebook.png" alt="facebook logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/instagram.png" alt="instagram logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/twitter.png" alt="twitter logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/linkedin.png" alt="linkdin logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/email.png" alt="gmail logo"
+                                        class="img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="ruler bg-cream1"></div>
+                <div class="py-3 py-lg-4">
+                    <b class="green1">Copyright © 2024 Quizzies. All rights reserved.</b>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
