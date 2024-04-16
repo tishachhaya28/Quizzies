@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn C language</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/privacyPolicy.css">
+    <link rel="stylesheet" href="css/C-info.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg nav">
+    <div class="container-fluid container-xxl">
+      <a class="navbar-brand col-5 col-sm-4 col-md-3 col-lg-2 p-1" href="#">
+        <img src="./images/1.png "alt="Logo" class="img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav boldFont">
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">QUIZZ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#">LEADER BOARD</a>
+          </li>
+          <li class=" py-1 d-block d-lg-none">
+            <button class="sign-btn py-1 px-4">SIGN UP</button>
+          </li>
+          <li class=" py-1 d-block d-lg-none">
+            <button class="log-btn py-1 px-4">LOG IN</button>
+          </li>
+        </ul>
+      </div>
+      <div class="px-3 d-none d-lg-block">
+        <button class="sign-btn py-1 px-4">SIGN UP</button>
+      </div>
+      <div class="px-3 d-none d-lg-block">
+        <button class="log-btn py-1 px-4">LOG IN</button>
+      </div>
+    </div>
+</nav>
+
+
+<!-- C LANGUAGE  -->
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5 p-4">
+                <div>
+                    <h1 class="brown1 extrabold d-flex justify-content-center mt-5">C Language</h1>
+                </div>
+                <div>
+                    <h2 class="green1 boldFont d-flex justify-content-center mt-5 fs-3">What is C language ?</h2>
+                    <p class="green2 d-flex justify-content-center mt-4 ">C language is a general-purpose programming language developed by Dennis Ritchie in the early 1970s at Bell Labs. It was designed primarily for system programming to write operating systems such as Unix. C has since become one of the most widely used programming languages due to its efficiency, flexibility, and portability.</p>
+                    <p class="green2 d-flex justify-content-center mt-4">C has influenced many other programming languages, including C++, Java, and Python. It remains popular for system programming, embedded systems, and performance-critical applications. Learning C provides a solid foundation for understanding programming concepts and principles that are applicable across a wide range of domains.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid container-xxl">
+        <div class="row">
+          <div class="col-12 px-sm-4 px-md-5">          
+            <div>
+                <h2 class="green1 boldFont d-flex justify-content-center mt-5 fs-3 p-4">Variables</h2>
+            </div>
+            <div style="font-family: monospace;">
+                <h4 class="green1 boldFont mt-5">Declaration:</h4>
+                <p class="green2 medium mt-4 ms-md-5 "> Variables must be declared before they can be used. A declaration specifies the variable's name and its data type.</p>
+                <p class="mt-4 ps-md-5"> <span class="brown1">int</span> <span class="green1">count</span> <span class="green2">=</span> <span class="brown2">10 ;</span>  <span class="green2">// Declaration and initialization of an integer variable 'count' with value 10</span></p>
+                <p class="mt-md-3 mt-4 ps-md-5"> <span class="brown1">float</span> <span class="green1">pi</span> <span class="green2">=</span> <span class="brown2">3.14 ;</span>  <span class="green2">// Declaration and initialization of a floating-point variable 'pi' with value 3.14</span></p>
+                <p class="mt-md-3 mt-4 ps-md-5"> <span class="brown1">char</span> <span class="green1">grade</span> <span class="green2">=</span> <span class="brown2">'A' ;</span>  <span class="green2">// Declaration and initialization of a character variable 'grade' with value 'A'</span></p>
+
+                <p class="green2 medium mt-5 ms-md-5 p-4"> Here's an example demonstrating the usage of variables in C:</p>
+                <p class="ps-md-5 mt-4"><span class="green2">#include</span> <span class="green2"> < </span> <span class="brown1">stdio.h</span> <span> > </span> </p>
+                <p class="ps-md-5 mt-3"> <span class="brown1">int</span> <span class="green2">main()</span> <span class="brown1">{</span></p>
+                <p class="mt-4 ps-md-5 ms-4"> <span class="brown1">int</span> <span class="green1">age</span> <span class="green2">=</span> <span class="brown2">25 ;</span></p>
+                <p class="mt-2 ps-md-5 ms-4"> <span class="brown1">float</span> <span class="green1">weight</span> <span class="green2">=</span> <span class="brown2">65.5 ;</span></p>
+                <p class="mt-2 ps-md-5 ms-4"> <span class="brown1">char</span> <span class="green1">grade</span> <span class="green2">=</span> <span class="brown2">'A' ;</span></p>
+
+                <p class="mt-4 ps-md-5 ms-4"> <span class="green2">printf</span> <span class="green2">(</span> <span class="brown2">"Age: %d\n",</span> <span class="green2">age</span> <span class="green2"> ) ;</span> </p>
+                <p class="mt-2 ps-md-5 ms-4"> <span class="green2">printf</span> <span class="green2">(</span> <span class="brown2">"Weight: %.2f\n",</span> <span class="green2">weight</span> <span class="green2"> ) ;</span> </p>
+                <p class="mt-2 ps-md-5 ms-4"> <span class="green2">printf</span> <span class="green2">(</span> <span class="brown2">"Grade: %c\n",</span> <span class="green2">grade</span> <span class="green2"> ) ;</span> </p>
+
+                <p class="mt-4 ps-md-5 ms-4"> <span class="green2">return</span> <span class="brown2">0 ;</span> </p>
+
+                <p class="mt-3 ps-md-5 "> <span class="brown1">}</span> </p>
+            </div>
+          </div>
+        </div>
+    </div>
+ 
+</section>
+
+<section class="container-fluid container-xxl mt-5">
+  <div class="row">
+    <div class="col-12 px-sm-4 px-md-5">
+      <div class="col-12 d-none d-md-block px-md-5">
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3">Data Types</h2>
+        <table class="border-brown mt-5 text-center mx-auto">
+          <thead class="green1 bg-cream1">
+            <tr>
+              <th>Data Type</th>
+              <th>Description</th>
+              <th>Size (in bytes)</th>
+              <th>Format Specifier</th>
+            </tr>
+          </thead>
+          <tbody class="green1">
+            <tr>
+              <td>int</td>
+              <td>Integer data type</td>
+              <td>Platform-dependent</td>
+              <td>%d</td>
+            </tr>
+            <tr>
+              <td>char</td>
+              <td>Character data type</td>
+              <td>1</td>
+              <td>%c</td>
+            </tr>
+            <tr>
+              <td>float</td>
+              <td>Single-precision floating-point data type</td>
+              <td>4</td>
+              <td>%f</td>
+            </tr>
+            <tr>
+              <td>double</td>
+              <td>Double-precision floating-point data type</td>
+              <td>8</td>
+              <td>%lf</td>
+            </tr>
+            <tr>
+              <td>_Bool</td>
+              <td>Boolean data type (true or false)</td>
+              <td>1</td>
+              <td>%d</td>
+            </tr>
+            <tr>
+              <td>short</td>
+              <td>Short integer data type</td>
+              <td>Platform-dependent</td>
+              <td>%hd</td>
+            </tr>
+            <tr>
+              <td>long</td>
+              <td>Long integer data type</td>
+              <td>Platform-dependent</td>
+              <td>%ld</td>
+            </tr>
+            <tr>
+              <td>long long</td>
+              <td>Long long integer data type</td>
+              <td>Platform-dependent</td>
+              <td>%lld</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container-fluid container-xxl mt-4">
+  <div class="row">
+    <div class="col-12 px-sm-4 px-md-5">
+      <div class="col-12 d-block d-md-none px-md-5">
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3">Data Types</h2>
+        <ul class="green1 mt-4">
+          <li class="py-2"><p><span class="brown1 medium">int : </span>Used to store integer values, typically 4 bytes on most modern systems.</p></li>
+          <li><p><span class="brown1 medium">float : </span>Used to store floating-point numbers (real numbers) with single precision, typically 4 bytes.</p></li>
+          <li class="py-2"><p><span class="brown1 medium">double : </span>Used to store floating-point numbers with double precision, typically 8 bytes.</li>
+          <li><p><span class="brown1 medium">char : </span>Used to store single characters, typically 1 byte.</p></li>
+          <li class="py-2"><p><span class="brown1 medium">short : </span>Used to store integer values, typically 2 bytes.</p></li>
+          <li><p><span class="brown1 medium">long : </span>Used to store integer values, typically 4 or 8 bytes, depending on the system.</p></li>
+          <li class="py-2"><p><span class="brown1 medium">long long : </span>Used to store larger integer values, typically 8 bytes.</p></li>
+        </ul>
+      </div>  
+    </div>
+  </div>
+</section>
+      
+
+<section class="container-fluid container-xxl mt-4">
+  <div class="row">
+    <div class="px-sm-4 px-md-5 p-4">
+      <div>
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3 mt-4">Operators</h2>
+      </div>
+      <div class="row">
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">1. </span> Arithmetic Operators:</p>
+          <ul class="green1 mt-3">
+            <li>'+' (Addition)</li>
+            <li class="mt-2">'-' (Subtraction)</li>
+            <li class="mt-2">'-' (Subtraction)</li>
+            <li class="mt-2">'*' (Multiplication)</li>
+            <li class="mt-2">'/' (Division)</li>
+            <li class="mt-2">'%' (Modulus)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">2. </span> Relational Operators:</p>
+          <ul class="green1 mt-3">
+            <li>'==' (Equal to)</li>
+            <li class="mt-2">'!=' (Not equal to)</li>
+            <li class="mt-2">''>' (Greater than)</li>
+            <li class="mt-2">'<' (Less than)</li>
+            <li class="mt-2">'>=' (Greater than or equal to)</li>
+            <li class="mt-2">'<=' (Less than or equal to)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">3. </span> Bitwise Operators:</p>
+          <ul class="green1 mt-3">
+            <li>'&' (Bitwise AND)</li>
+            <li class="mt-2">'|'  (Bitwise OR)</li>
+            <li class="mt-2">'^' (Bitwise XOR)</li>
+            <li class="mt-2">'~' (Bitwise NOT)</li>
+            <li class="mt-2">'<<' (Left shift)</li>
+            <li class="mt-2">'>>' (Right shift)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">4. </span> Assignment Operators:</p>
+          <ul class="green1 mt-3">
+            <li>''=' (Simple assignment)</li>
+            <li class="mt-2">'+=' (Add and assign)</li>
+            <li class="mt-2">'-=' (Subtract and assign)</li>
+            <li class="mt-2">'*=' (Multiply and assign)</li>
+            <li class="mt-2">'/=' (Divide and assign)</li>
+            <li class="mt-2">'%=' (Modulus and assign)</li>
+            <li class="mt-2">'&=;' (Bitwise AND and assign)</li>
+            <li class="mt-2">'|=' (Bitwise OR and assign)</li>
+            <li class="mt-2">'^=' (Bitwise XOR and assign)</li>
+            <li class="mt-2">'<<=' (Left shift and assign)</li>
+            <li class="mt-2">''>>=' (Right shift and assign)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">5. </span>Logical Operators:</p>
+          <ul class="green1 mt-3">
+            <li>'&&' (Logical AND)</li>
+            <li class="mt-2">'||' (Logical OR)</li>
+            <li class="mt-2">'!' (Logical NOT)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">6. </span> Increment and Decrement Operators:</p>
+          <ul class="green1 mt-3">
+            <li>'++' (Increment)</li>
+            <li class="mt-2">'--' (Decrement)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">7. </span> Conditional Operator:</p>
+          <ul class="green1 mt-3">
+            <li>'? :' (Ternary conditional)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">8. </span> Comma Operator:</p>
+          <ul class="green1 mt-3">
+            <li>',' (Comma operator)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">9. </span> Sizeof Operator:</p>
+          <ul class="green1 mt-3">
+            <li>'sizeof' (Returns the size of a data type or variable in bytes)</li>
+          </ul>
+        </div>
+        <div class="mt-5 col-12 col-sm-6 col-md-4">
+          <p class="brown1"> <span class="green1">10. </span>Address and Dereference Operators:</p>
+          <ul class="green1 mt-3">
+            <li>'&' (Address of)</li>
+            <li>'*' (Dereference)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container-fluid container-xxl mt-4">
+  <div class="row">
+    <div class="col-12 px-sm-4 px-md-5">
+      <div>
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3 mt-4">Control Structures</h2>
+      </div>
+      <div>
+        <p class="green1 mt-5 fw-bold"><span class="green1">1. </span>if-else Statement:</p>
+        <ul><li class="brown1 mt-3">Allows you to execute a block of code conditionally based on whether a specified condition evaluates to true or false.</li></ul>
+        <p class="ms-4 mt-4"><span class="green1">if </span> <span class="green1">(condition) </span> <span class="brown1">{</span></p>
+        <p class="brown2 ms-5 mt-3"> // code block executed if condition is true</p>
+        <p class="brown2 mt-3 ms-4"><span class="brown1"> }</span> <span class="green1">else</span>  <span class="brown1">{</span></p>
+        <p class="brown2 ms-5 mt-4">// code block executed if condition is false</p>
+        <p class="brown1 mt-3 ms-4">}</p>
+      </div>
+      <div>
+        <p class="green1 mt-5 fw-bold"><span class="green1">2. </span>switch-case Statement:</p>
+        <ul><li class="brown1 mt-3">Provides a convenient way to execute different blocks of code based on the value of an expression.</li></ul>
+        <p class="ms-4 mt-4"><span class="green1">switch </span> <span class="green1">(expression) </span> <span class="brown1">{</span></p>
+        <p class="ms-5 mt-3"><span class="green1"> case </span> <span class="brown1">value1:</span></p>
+        <p class="brown2 ms-5 ps-4 mt-3"> // code block executed if expression equals value1</p>
+        <p class="green1 ms-5 ps-4 mt-2"> break;</p>
+        <p class="ms-5 mt-3"><span class="green1"> case </span> <span class="brown1">value2:</span></p>
+        <p class="brown2 ms-5 ps-4 mt-3"> // code block executed if expression equals value2</p>
+        <p class="green1 ms-5 ps-4 mt-2"> break;</p>
+        <p class="green1 ms-4 mt-4 ps-4">default:</p>
+        <p class="brown2 ms-5 ps-4 mt-4">// code block executed if expression doesn't match any case</p>
+        <p class="brown1 mt-3 ms-4">}</p>
+      </div>
+      <div>
+        <p class="green1 mt-5 fw-bold"><span class="green1">3. </span>while Loop:</p>
+        <ul>
+          <li class="brown1 mt-3">Executes a block of code repeatedly as long as a specified condition is true.</li>
+        </ul>
+        <p class="ms-4 mt-4"><span class="green1">while </span> <span class="green1">(condition) </span> <span class="brown1">{</span></p>
+        <p class="brown2 ms-5 ps-4 mt-3"> // code block executed while condition is true</p>
+        <p class="brown1 ms-4 mt-3">}</p>
+      </div>
+      <div>
+        <p class="green1 mt-5 fw-bold"><span class="green1">4. </span>do-while Loop:</p>
+        <ul>
+          <li class="brown1 mt-3">Similar to the while loop, but the code block is executed at least once before the condition is tested.</li>
+        </ul>
+        <p class="ms-4 mt-4"><span class="green1">do </span> <span class="brown1">{</span></p>
+        <p class="brown2 ms-5 ps-4 mt-3"> // code block executed at least once</p>
+        <p class="ms-4 mt-3"> <span class="brown1">}</span> <span class="green1"> while </span> <span class="green1">(condition);</span></p>
+      </div>
+      <div>
+        <p class="green1 mt-5 fw-bold"><span class="green1">5. </span>for Loop:</p>
+        <ul>
+          <li class="brown1 mt-3">Executes a block of code repeatedly for a specified number of times.</li>
+        </ul>
+        <p class="ms-4 mt-4"><span class="green1">for </span> <span class="green1">(initialization; condition; increment/decrement) </span> <span class="brown1">{</span></p>
+        <p class="brown2 ms-5 ps-4 mt-3"> // code block executed while condition is true</p>
+        <p class="ms-4"><span class="brown1 ">}</span></p>
+      </div>
+      <div>
+        <p class="green1 mt-5 fw-bold"><span class="green1">6. </span>break Statement:</p>
+        <ul><li class="brown1 mt-3">Terminates the nearest enclosing loop or switch-case statement.</li></ul>
+      </div>
+      <div>
+        <p class="green1 mt-5 fw-bold"><span class="green1">7. </span>continue Statement:</p>
+        <ul><li class="brown1 mt-3">Skips the rest of the current iteration of a loop and continues with the next iteration.</li></ul>
+      </div>
+    </div>
+  </div>  
+</section>
+
+
+<section class="container-fluid container-xxl mt-4">
+  <div class="row">
+    <div class="col-12 px-sm-4 px-md-5">
+      <div>
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3 mt-4">Functions</h2>
+      </div>
+      <p class="mt-5 green2">Functions in the C programming language are reusable blocks of code that perform a specific task. They allow you to break down your program into smaller, manageable parts, making your code more organized, readable, and easier to maintain. Here's some information about functions in C:</p>
+      <div>
+        <ul>
+          <li><p class="brown1 mt-4"> <span class="green1 fw-medium">Syntax: </span>The syntax for defining a function in C is as follows:</p></li>
+        </ul>
+        <p class="brown1 mt-4"> <span class="green1">return_type</span> <span class="brown2">function_name </span> <span class="green1">(parameter_list)</span> </span>  {</p>
+        <p class="brown2 mt-3 ms-4"> // Function body</p>
+        <p class="brown2 mt-2 ms-4">// Statements</p>
+        <p class="green1 mt-3 ms-4"> return value; <span class="brown2"> // optional</span></p>
+        <p class="brown1">}</p>
+      </div>
+      <div>
+        <ul>
+          <li><p class="brown1 mt-5"> <span class="green1 fw-medium">Return Type:  </span>The return type specifies the data type of the value that the function returns after performing its task. It can be 'void' if the function does not return any value.</p></li>
+          <li><p class="brown1 mt-3"> <span class="green1 fw-medium">Function Name:  </span>It is the name of the function that is used to call it from other parts of the program.</p></li>
+          <li><p class="brown1 mt-3"> <span class="green1 fw-medium">Parameter List:  </span>It contains the list of parameters (arguments) that the function accepts. Parameters are optional. If a function does not require any input, the parameter list can be left empty.</p></li>
+          <li><p class="brown1 mt-3"> <span class="green1 fw-medium">Function Body: </span>It contains the set of statements that define what the function does when called.</p></li>
+          <li><p class="brown1 mt-3"> <span class="green1 fw-medium">Return Statement:  </span>It is used to return a value from the function to the calling code. The return statement is optional for functions with a 'return' type of 'void'.</p></li>
+          <li><p class="brown1 mt-3"> <span class="green1 fw-medium">Function Declaration:   </span>Before you can use a function in C, you must declare it. Function declaration specifies the function's name, return type, and parameter types (if any). It's typically done at the beginning of the program or in a header file.</p></li>
+          <li><p class="brown1 mt-3"> <span class="green1 fw-medium">Function Call:  </span>To execute a function, you call it by its name followed by parentheses. If the function has parameters, you pass values inside the parentheses.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="container-fluid container-xxl mt-4">
+  <div class="row">
+    <div class="col-12 px-sm-4 px-md-5 p-4">
+      <div>
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3 mt-4">Array</h2>
+      </div>
+      <div>
+        <p class="brown1 mt-5"> <span class="green1 fw-medium">1. Declaration :  </span>To declare an array in C, you specify the data type of the elements and the size of the array.</p>
+        <p class="brown1 mt-4">Syntax:</p>
+        <p class="mt-3 ms-4"><span class="green1">data_type </span> <span class="brown2">array_name</span> <span class="green1">[array_size];</span></p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-4 ms-4"> <span class="green1">int</span> <span class="brown1">numbers[</span> <span class="green1">5</span> <span class="brown1">];</span>  <span class="green1">// Declares an array of 5 integers</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"> <span class="green1 fw-medium">2. Initialization :  </span> You can initialize the elements of an array at the time of declaration or later in the program.</p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-4 ms-4"> <span class="green1">int</span> <span class="brown1">numbers[</span> <span class="green1">5</span> <span class="brown1">];</span> <span class="green1">= </span> <span class="green1">{</span> <span class="brown2">1, 2, 3, 4, 5</span> <span class="green1">};</span>  <span class="green1">// Initializes array elements during declaration</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"> <span class="green1 fw-medium">3. Accessing Elements: </span> Array elements are accessed using zero-based indexing.</p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-4 ms-4"> <span class="green1">int</span> <span class="brown1">third_element</span> <span class="brown1">numbers[</span> <span class="green1">2</span> <span class="brown1">];</span>    <span class="green1">// Accesses the third element of the array (index 2)</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">4. Arrays and Pointers:</span> In C, arrays are closely related to pointers. The name of an array acts as a pointer to the first element of the array.</p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-4 ms-4"><span class="green1">int</span> <span class="brown1">numbers[ </span> <span class="green1">5</span> <span class="brown1">];</span></p>
+        <p class="mt-0 ms-4"><span class="green1">int</span> <span class="brown1">*</span><span class="green1">ptr</span> <span class="brown1">= numbers;</span> <span class="green1">// ptr points to the first element of the numbers array</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">5. Multidimensional Arrays:</span> C supports multidimensional arrays, which are arrays of arrays.</p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-4 ms-4"><span class="green1">int</span>  <span class="brown1">matrix[ </span> <span class="green1">3</span> <span class="brown1">]</span>  <span class="brown1">[ </span> <span class="green1">3</span> <span class="brown1">];</span></span> <span class="green1">// Declares a 3x3 matrix</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">6. Array Size:</span> The size of an array must be a constant expression known at compile time.</p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-4 ms-4"><span class="green1">const</span> <span class="brown1">SIZE </span> <span class="green1">=</span> <span class="brown2">5;</span></p>
+        <p class="mt-3 ms-4"><span class="green1">int </span> <span class="brown1">numbers</span> <span class="green1">[</span> <span class="brown1">SIZE</span> <span class="green1"> ];</span> <span class="green1">// Declares an array with size determined by a constant expression</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">7. Array Manipulation:</span> In C, arrays are closely related to pointers. The name of an array acts as a pointer to the first element of the array.</p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-3 ms-4"><span class="green1">qsort(numbers, </span> <span class="brown1">5</span> <span class="green1">,</span> <span class="brown1">sizeof</span>  <span class="green1">(</span> <span class="brown1">int</span> <span class="green1">) , </span> <span class="green1">compare_function);</span> <span class="green1">// Declares an array with size determined by a constant expression</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container-fluid container-xxl mt-4">
+  <div class="row">
+    <div class="col-12 px-sm-4 px-md-5 p-4">
+      <div>
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3 mt-4">Pointers</h2>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">1. Declaration:</span> To declare a pointer variable in C, you use the asterisk (*) symbol.</p>
+        <p class="brown1 mt-4">Syntax:</p>
+        <p class="mt-3 ms-4"><span class="green1">data_type * <span class="brown2">pointer_name;</span></span></p>
+        <p class="brown1 mt-4">Example:</p>
+        <p class="mt-4 ms-4"><span class="green1">int * <span class="brown2">ptr;</span></span> <span class="green1">// Declares a pointer to an integer</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">2. Initialization:</span> Pointers can be initialized with the address of another variable.</p>
+        <p class="brown1 mt-4">Example:</p>
+        <p class="mt-4 ms-4 green1"><span class="green1">int <span class="brown2">x</span>  = <span class="brown2">10;</span></p>
+        <p class="mt-0 ms-4 green1"><span class="green1">int * <span class="brown1"> ptr</span> = &x;</span> <span class="green1">// Initializes ptr with the address of x</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">3. Accessing Value:</span> You can access the value stored at a memory address pointed to by a pointer using the dereference operator (*)</p>
+        <p class="brown1 mt-4">Example:</p>
+        <p class="mt-4 ms-4 green1"><span class="green1">int <span class="brown2">x</span>  = <span class="brown2">10;</span></p>
+        <p class="mt-0 ms-4 green1"><span class="green1">int * <span class="brown1"> ptr</span> = &x;</span> <span class="green1">// Initializes ptr with the address of x</span></p>
+        <p class="mt-0 ms-4 green1"><span class="green1">int </span> <span class="brown2">value</span>  = * <span class="brown2">ptr;</span> <span class="green1">// Accesses the value stored at the memory address pointed to by ptr</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">4. Arrays and Pointers:</span> In C, arrays are closely related to pointers. The name of an array acts as a pointer to the first element of the array.</p>
+        <p class="brown1 mt-4">Example: </p>
+        <p class="mt-4 ms-4"><span class="green1">int</span> <span class="brown1">numbers[</span> <span class="green1">5</span> <span class="brown1">];</span></p>
+        <p class="mt-0 ms-4"><span class="green1">int</span> <span class="brown1">*</span><span class="green1">ptr</span> <span class="brown1">= numbers;</span> <span class="green1">// ptr points to the first element of the numbers array</span></p>
+      </div>
+      <div>
+        <p class="brown1 mt-5"><span class="green1 fw-medium">5. Dynamic Memory Allocation:</span> Pointers are commonly used for dynamic memory allocation using functions like 'malloc()', 'calloc()', and 'realloc()'. These functions allocate memory at runtime and return a pointer to the allocated memory block.</p>
+        <p class="mt-4 ms-4 green1"><span class="green1">int <span class="brown2">*ptr</span>  = (<span class="brown1">int *</span> ) <span class="brown1">malloc</span>( <span class="green1">5 * </span> <span class="brown2">sizeof</span> ( <span class="brown2">int</span>) );</span> <span class="green1">// Allocates memory for an array of 5 integers</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="container-fluid container-xxl mt-4">
+  <div class="row">
+    <div class="col-12 px-sm-4 px-md-5 p-4">
+      <div>
+        <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3 mt-4">String</h2>
+      </div>
+      <div>
+        <p class="brown1 mt-5"> <span class="green1 fw-medium">1. Character Arrays :  </span>In C, strings are represented as arrays of characters terminated by a null character ('\0'). For example:</p>
+        <p class="brown2 mt-3 ms-4"><span class="green1">char </span> <span class="brown2">str</span> <span class="green1">[]</span> =  <span class="green1">"Hello";</span></p>
+        <p class="brown1 mt-4"> <span class="green1 fw-medium">2. Null Termination:  </span>Strings in C are null-terminated, meaning the null character marks the end of the string. It is important to include space for the null character when declaring string arrays.</p>
+        <p class="brown1 mt-4"> <span class="green1 fw-medium">3. Character Arrays :  </span>In C, strings are represented as arrays of characters terminated by a null character ('\0'). For example:</p>
+        <p class="brown1 mt-4"> <span class="green1 fw-medium">4. String Literal : </span>A string literal is a sequence of characters enclosed in double quotes. It automatically adds a null character at the end.</p>
+        <p class="brown2 mt-3 ms-4"><span class="green1">char </span> <span class="brown2">str</span> <span class="green1">[]</span> =  <span class="green1">"Hello";</span></p>
+        <p class="brown1 mt-4"> <span class="green1 fw-medium">5. String Functions :   </span> C provides various string manipulation functions in the <string.h> library, such as 'strlen()', 'strcpy()', 'strcat()', 'strcmp()', etc., to perform operations on strings.</p>
+        <p class="brown1 mt-4"> <span class="green1 fw-medium">6.String Input and Output :   </span>You can use printf() to print strings and puts() to output strings to the console.</p>
+        <p class="brown1 mt-4 mb-5"> <span class="green1 fw-medium">7. Dynamic Allocation :  </span>You can dynamically allocate memory for strings using functions like malloc() and realloc().</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+
+
+<footer class="bg-cream1 mt-5">
+    <div class="container-fluid container-fluid-xl container-xxl bg-cream1">
+      <div class="row py-4 px-1 px-sm-3 px-lg-3 px-xxl-1 ">
+        <div class="col-12 col-lg-7">
+          <h2 class="green1 boldFont">Contact Us</h2>
+          <p class="green1 d-none d-sm-block">Have questions, suggestions, or just want to say hi? We'd love to hear from you! Drop us a line at <span class="green2 medium">quizzies.contact@gmail.com</span> and we'll get back to you as soon as possible.</p>
+        </div>
+        <div class="col-12 col-lg-5 align-items-lg-center d-lg-flex justify-content-lg-end">
+          <form action="" class="">
+            <div class="input-group">
+              <input type="email" placeholder="youremail@gmail.com" class="cream1 bg-green1 border-0 py-1 px-2 px-md-4 d-flex align-items-center">
+              <input type="submit" value="SUBMIT" class="submit-footer px-3 px-md-4 green1">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bg-brown2">
+      <div class="container-fluid container-fluid-xl container-xxl">
+        <div class="row row-cols-5">
+          <div class="col-12 d-flex justify-content-center justify-content-sm-start">
+            <div class="col-8 col-sm-4 p-3 my-2 p-md-4 col-lg-3 col-xl-2">
+              <a href="#" class="">
+                <img src="images/2.png" alt="Logo" class="img">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 text-center col-sm-6 col-lg-4 col-xl text-xl-start ps-xl-4">
+            <h1 class="green1 py-2 boldFont fs-3 px-xl-2">About Us</h1>
+            <p class="cream1 px-2">Welcome to <span class="green1">Quizzies</span>, your ultimate destination for fun and knowledge! We're passionate about quizzes and trivia, dedicated to providing you with an engaging platform to test your wits and learn something new every day.</p>
+            <p class="green1 px-xl-2">Privacy Policy</p>
+          </div>
+          <div class="text-center col-12 pt-2 col-sm-6 pt-sm-0 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Learning path</h1>
+            <ul class="list-unstyled cream1">
+              <li>Web Development</li>
+              <li>Python Developer</li>
+              <li>Coding</li>
+              <li>Foundations</li>
+              <li>Front-end for Beginners</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 col-sm-6 col-lg-4 pt-lg-0 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Begginer's Quiz</h1>
+            <ul class="list-unstyled cream1">
+              <li>Scratch</li>
+              <li>Blockly</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Intermediate Quiz</h1>
+            <ul class="list-unstyled cream1">
+              <li>JAVA</li>
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>PHP</li>
+              <li>Swift</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Frameworks</h1>
+            <ul class="list-unstyled cream1">
+              <li>Django(Python)</li>
+              <li>Ruby on Rails (Ruby)</li>
+              <li>Express.js (JavaScript - Node.js)</li>
+              <li>Laravel (PHP)</li>
+              <li>ASP.NET Core (C#)</li>
+              <li>Angular (JavaScript/TypeScript)</li>
+              <li>React.js (JavaScript)</li>
+              <li>Flutter (Dart)</li>
+              <li>React Native (JavaScript)</li>
+              <li>NativeScript (JavaScript)</li>
+              <li>Unity (C#)</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-3 pt-lg-0 col-sm-6 col-lg-4 col-xl-12 py-lg-0">
+            <h1 class="green1 py-2 boldFont fs-3">Follow Us</h1>
+            <ul class="list-unstyled cream1 d-flex justify-content-center col-xl-4 mx-xl-auto">
+              <li class="col-1 mx-2"><a href="#"><img src="images/facebook.png" alt="facebook logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/instagram.png" alt="instagram logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/twitter.png" alt="twitter logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/linkedin.png" alt="linkdin logo" class="img"></a></li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/email.png" alt="gmail logo" class="img"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center">
+        <div class="ruler bg-cream1"></div>
+        <div class="py-3 py-lg-4">
+          <b class="green1">Copyright © 2024 Quizzies. All rights reserved.</b>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
