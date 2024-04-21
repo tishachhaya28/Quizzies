@@ -68,6 +68,11 @@
 .img{
     width: 100%;
 }
+.border-green{
+    border: 1px solid #22495A;
+    border-radius: 5px;
+}
+
 .nav-text{
     color: #22495A !important; 
 }
@@ -100,5 +105,3 @@
 .submit-footer{
   border: 1px solid #22495A;
 }
-
-
