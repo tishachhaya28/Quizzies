@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn PHP</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/php-info.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+       <!-- NAVBAR STARTS FROM HERE -->
+       <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid container-xxl">
+            <a class="navbar-brand col-5 col-sm-4 col-md-3 col-lg-2 p-1" href="#">
+                <img src="./images/1.png" alt="Logo" class="img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav boldFont">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">QUIZZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">LEADER BOARD</a>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="sign-btn py-1 px-4">SIGN UP</button>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="log-btn py-1 px-4">LOG IN</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="sign-btn py-1 px-4">SIGN UP</button>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="log-btn py-1 px-4">LOG IN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN SECTION STARTS FROM HERE -->
+    <section class="container-fluid container-xxl">
+        <div class="row">
+            <div class="col-12 px-sm-5">
+                <h1 class="brown1 extrabold text-center mt-5 mt-lg-5">PHP</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- History -->
+    <section class="container-fluid container-xxl">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-3 mt-lg-5 text-center">History</h2>
+                <ul class="green1 mt-3">
+                    <p>PHP is the world’s most popular server-side programming language. Its latest version PHP 8.2.8, released on July 4th, 2023.</p>
+                    <li class="py-2"><p><b class="fs-5">Purpose :</b> PHP is designed for web development to create dynamic web pages and server-side applications. It can be embedded into HTML code, or it can be used in combination with web templates, web content management systems, and web frameworks</p></li>
+                    <li><p><b class="fs-5">Server-Side Scripting :</b>PHP is a server-side scripting language, meaning the PHP code is executed on the server, and the result is sent to the client's browser as plain HTML</p></li>
+                    <p class="ms-4 mb-2 py-2"> - This enables the creation of dynamic and interactive web pages.</p>
+                    <li><p><b class="fs-5">Open Source :</b>PHP is open-source software, which means it is freely available for anyone to use, modify, and distribute.</p></li>
+                    <p class="ms-4 mb-2 py-2"> - Its open nature has led to a large community of developers contributing to its growth and improvement.</p>
+                    <li><p><b class="fs-5">Database Integration :</b>PHP provides robust support for interacting with databases, including MySQL, PostgreSQL, SQLite, and others. </p></li>
+                    <p class="ms-4 mb-2 py-2"> - This makes it a popular choice for building database-driven web applications.</p>
+                    <li><p><b class="fs-5">Security :</b>While PHP itself is secure, the security of PHP applications depends on how well they are programmed and maintained.</p></li>
+                    <p class="ms-4 mb-2"> - Best practices like input validation, output sanitization, and using secure coding techniques are essential for building secure PHP applications.</p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is PHP? -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">What is PHP?</h2>
+                <ul class="green1 mt-3">
+                    <li><p>PHP stands for a recursive acronym PHP: Hypertext Preprocessor.</p></li>
+                    <li class="py-2"><p>PHP started out as a small open source project that evolved as more and more people found out how useful it was.</p></li>
+                    <li><p>PHP is the world’s most popular server-side programming language for building web applications.</p></li>
+                    <li class="py-2"><p>PHP development in 1993 by writing several Common Gateway Interface (CGI) programs in C, which he used to maintain in his personal homepage.</p></li>
+                    <li><p>PHP 7.4.0 is the latest version of PHP, which was released on 28 November.</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why use PHP -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">Why use PHP</h2>
+                <p class="green1">PHP is a server-side scripting language, which is used to design the dynamic web applications with MySQL database.</p>
+                <ul class="green1 mt-3">
+                    <li><p>It handles dynamic content, database as well as session tracking for the website.</p></li>
+                    <li class="py-2"><p>You can create sessions in PHP.</p></li>
+                    <li><p>It helps to encrypt the data and apply validation.</p></li>
+                    <li class="py-2"><p>PHP supports several protocols such as HTTP, POP3, SNMP, LDAP, IMAP, and many more.</p></li>
+                    <li><p>Using PHP language, you can control the user to access some pages of your website.</p></li>
+                    <li class="py-2"><p>As PHP is easy to install and set up, this is the main reason why PHP is the best language to learn.</p></li>
+                    <li><p>PHP can handle the forms, such as - collect the data from users using forms, save it into the database, and return useful information to the user. For example - Registration form.</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHP Features -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">PHP Features</h2>
+                <div class="col-md-12 mx-auto border-green p-2 p-md-4 mt-4 mx-sm-4 mx-md-0 mt-md-5 col-lg-8 mx-lg-auto col-xl-6">
+                    <img src="./images/features.png" class="img">
+                </div>
+                <div class="col-12 px-sm-4 px-md-5">
+                    <ul class="b green2">
+                        <li><p><h4 class="green2 py-2 semibold">Performance:</h4></p></li>
+                        <p>PHP script is executed much faster than those scripts which are written in other languages such as JSP and ASP. PHP uses its own memory, so the server workload and loading time is automatically reduced, which results in faster processing speed and better performance.</p>
+                        <li><p><h4 class="green2 py-2 semibold">Open Source:</h4></p></li>
+                        <p>PHP source code and software are freely available on the web. You can develop all the versions of PHP according to your requirement without paying any cost. All its components are free to download and use.</p>
+                        <li><p><h4 class="green2 py-2 semibold">Familiarity with syntax:</h4></p></li>
+                        <p>PHP has easily understandable syntax. Programmers are comfortable coding with it.</p>
+                        <li><p><h4 class="green2 py-2 semibold">Embedded:</h4></p></li>
+                        <p>PHP code can be easily embedded within HTML tags and script.</p>
+                        <li><p><h4 class="green2 py-2 semibold">Platform Independent:</h4></p></li>
+                        <p>PHP is available for WINDOWS, MAC, LINUX & UNIX operating system. A PHP application developed in one OS can be easily executed in other OS also.</p>                            <li><p><h4 class="green2 py-2 semibold">Database Support:</h4>
+                        <p>PHP supports all the leading databases such as MySQL, SQLite, ODBC, etc.</p>
+                        <li><p><h4 class="green2 py-2 semibold">Error Reporting:</h4></p></li>
+                        <p>PHP has predefined error reporting constants to generate an error notice or warning at runtime.</p>
+                        <p>E.g., E_ERROR, E_WARNING, E_STRICT, E_PARSE.</p>
+                        <li><p><h4 class="green2 py-2 semibold">Loosely Typed Language:</h4></p></li>
+                        <p>PHP allows us to use a variable without declaring its datatype. It will be taken automatically at the time of execution based on the type of data it contains on its value.</p>
+                        <li<p>><h4 class="green2 py-2 semibold">Security:</h4></p></li>
+                        <p>PHP is a secure language to develop the website. It consists of multiple layers of security to prevent threads and malicious attacks.</p>
+                        <li><p><h4 class="green2 py-2 semibold">Control:</h4></p></li>
+                        <p>Different programming languages require long script or code, whereas PHP can do the same work in a few lines of code. It has maximum control over the websites like you can make changes easily whenever you want.</p>
+                        <li><p><h4 class="green2 py-2 semibold">A Helpful PHP Community:</h4></p></li>
+                        <p>It has a large community of developers who regularly updates documentation, tutorials, online help, and FAQs. Learning PHP from the communities is one of the significant benefits.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHP Variables -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">PHP Variables</h2>
+                <p class="green1">In PHP, a variable is declared using a <b>$ sign</b> followed by the variable name. Here, some important points to know about variables:</p>
+                <ul class="green1 mt-3">
+                    <li><p>As PHP is a loosely typed language, so we do not need to declare the data types of the variables. It automatically analyzes the values and makes conversions to its correct datatype.</p></li>
+                    <li class="py-2"><p>After declaring a variable, it can be reused throughout the code.</p></li>
+                    <li><p>Assignment Operator (=) is used to assign the value to a variable.</p></li>
+                </ul>
+                <h4 class="green1 semibold mt-4">PHP $ and $$ Variables :</h4>
+                <ul class="green1 mt-3">
+                    <li class="py-2"><p>The $var (single dollar) is a normal variable with the name var that stores any value like string, integer, float, etc.</p></li>
+                    <li><p>The $$var (double dollar) is a reference variable that stores the value of the $variable inside it.</p></li>
+                </ul>
+            </div>
+            <!-- example PHP Variables -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">$x = <span class="brown1">"abc"</span>;</p>
+                    <p class="green1">$$x = <span class="brown1">"200</span>;</p>
+                    <p class="green1">echo <span class="brown1">$x.</span>. <span class="green2">"&ltbr/&gt"</span>;</p>
+                    <p class="green1">echo <span class="brown1">$$x.</span>. <span class="green2">"&ltbr/&gt"</span>;</p>
+                    <p class="green1">echo $abc;</p>
+                    <p class="green1">?&gt</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+      
+    <!-- Data Types -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 d-none d-md-block px-sm-4 px-md-5">
+              <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3">Data Types</h2>
+                <table class="border-brown mt-5 text-center mx-auto">
+                    <thead class="green1 bg-cream1">
+                        <tr>
+                            <th>Data Type</th>
+                            <th>Description</th>
+                            <th>Size (in bytes)</th>
+                            <th>Format Specifier</th>
+                        </tr>
+                    </thead>
+                    <tbody class="green1">
+                        <tr>
+                            <td>Bool</td>
+                            <td>Boolean data type (true or false)</td>
+                            <td>1</td>
+                            <td>%d</td>
+                        </tr>
+                        <tr>
+                            <td>int</td>
+                            <td>Integer data type</td>
+                            <td>Platform-dependent</td>
+                            <td>%d</td>
+                        </tr>
+                        <tr>
+                            <td>float</td>
+                            <td>Single-precision floating-point data type</td>
+                            <td>4</td>
+                            <td>%f</td>
+                        </tr>
+                        <tr>
+                            <td>string</td>
+                            <td>2 bytes per character</td>
+                            <td>Stores a sequence of characters, surrounded by double quotes</td>
+                            <td>%s</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+      
+    <!-- Data Types in li -->
+    <section class="container-fluid container-xxl mt-4">
+        <div class="row">
+            <div class="col-12 px-sm-5 px-md-5">
+                <div class="col-12 d-block d-md-none px-md-5">
+                <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3">Data Types</h2>
+                <ul class="green1 mt-4">
+                    <li class="py-2"><p><span class="brown1 medium fs-6">bool : </span>Stores true or false values, typically 8 bytes.</p></li>
+                    <li class="py-2"><p><span class="brown1 medium fs-6">int : </span>Used to store integer values, typically 4 bytes on most modern systems.</p></li>
+                    <li class="py-2"><p><span class="brown1 medium fs-6">float : </span>Used to store floating-point numbers (real numbers) with single precision, typically 4 bytes.</p></li>
+                    <li class="py-2"><p><span class="brown1 medium fs-6">string : </span>Stores a sequence of characters, surrounded by double quotes, typically 2 bytes.</p></li>
+                </ul>
+            </div>  
+        </div>
+    </section>
+
+    <!-- PHP echo and print Statements -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-5">
+                <h2 class="green1 boldFont mt-5 text-center">PHP echo and print Statements</h2>
+                <h4 class="green1 semibold">Echo :</h4>
+                <ul class="green1 mt-3">
+                    <li><p>echo is a language construct, not a function, so it doesn't require parentheses (though you can use them).</p></li>
+                    <li class="py-2"><p>It can output one or more strings separated by commas.</p></li>
+                    <li><p>It's often used to output HTML or other markup along with dynamic content.</p></li>
+                </ul>
+            </div>
+            <!-- example PHP echo and print Statements -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">echo <span class="brown1">"Hello, world!"</span>;</p>
+                    <p class="green1">echo <span class="brown1">"&ltbr&gt"</span>;</p>
+                    <p class="green1">echo <span class="brown1">"Today is " </span>. <span class="green2">date</span>(<span class="brown1">"Y-m-d"</span>);</p>
+                    <p class="green1">?&gt</p>
+                </div>
+            </div>
+            <!-- Print -->
+            <div class="col-12 px-sm-5">
+                <h4 class="green1 semibold mt-4">Print :</h4>
+                <ul class="green1 mt-3">
+                    <li><p>print is a language construct as well, but it behaves like a function and returns 1 (true) always.</p></li>
+                    <li class="py-2"><p>It can only output one string at a time.</p></li>
+                    <li><p>It's less commonly used compared to echo.</p></li>
+                </ul>
+            </div>
+            <!-- example Print -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">echo <span class="brown1">"Hello, world!"</span>;</p>
+                    <p class="green1">echo <span class="brown1">"&ltbr&gt"</span>;</p>
+                    <p class="green1">echo <span class="brown1">"Today is " </span>. <span class="green2">date</span>(<span class="brown1">"Y-m-d"</span>);</p>
+                    <p class="green1">?&gt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHP Functions -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">PHP Functions</h2>
+                <ul class="green1 mt-3">
+                    <li class="py-2"><p>PHP function is a piece of code that can be reused many times. It can take input as argument list and return value. There are thousands of built-in functions in PHP.</p></li>
+                    <li><p>In PHP, we can define <b>Conditional function, Function within Function</b> and <b>Recursive</b> function also.</p></li>
+                </ul>
+                <!-- Advantage of PHP Functions -->
+                <h4 class="green1 semibold mt-4">Advantage of PHP Functions :</h4>
+                <ul class="green1 mt-3">
+                    <li><p><b class="fs-5">Code Reusability :</b> PHP functions are defined only once and can be invoked many times, like in other programming languages.</p></li>
+                    <li class="py-2"><p><b class="fs-5">Less Code :</b>I It saves a lot of code because you don't need to write the logic many times. By the use of function, you can write the logic only once and reuse it.</p></li>
+                    <li><p><b class="fs-5">Easy to understand :</b>PHP functions separate the programming logic. So it is easier to understand the flow of the application because every logic is divided in the form of functions.</p></li>
+                </ul>
+                <!-- PHP User-defined Functions -->
+                <h4 class="green1 semibold mt-4">PHP User-defined Functions :</h4>
+                <ul class="green1 mt-3">
+                    <li><p>We can declare and call user-defined functions easily. Let's see the syntax to declare user-defined functions.</p></li>
+                </ul>
+                <!-- syntax PHP User-defined Functions -->
+                <h4 class="green2 py-2 semibold">Syntax :-</h4>
+                <p class="green2">function functionname()</p>
+                {
+                <p class="brown2 ms-4"> // Bcode to be executed</p>
+                }
+            </div>
+            <!-- example PHP User-defined Functions -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">function sayHello()</p>
+                    {
+                    <p class="green1">echo <span class="brown1">"Hello PHP Function"</span>;</p>
+                    }
+                    <p class="green1">sayHello();<span class="brown2"> // calling function</span></p>
+                    <div class="green1">?&gt</div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- PHP Array Types -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">PHP Array Types</h2>
+                <ul class="green1 mt-3">
+                    <li><p>There are 3 types of array in PHP.</p></li>
+                </ul>
+                <ul class="c green1">
+                    <li><p>Indexed Array</p></li>
+                    <li class="py-2"><p>Associative Array</p></li>
+                    <li><p>Multidimensional Array</p></li>
+                </ul>
+                <h4 class="green1 semibold mt-4">PHP Indexed Array :</h4>
+                <ul class="green1 mt-3">
+                    <li><p>PHP index is represented by number which starts from 0.</p></li>
+                    <li class="py-2"><p>We can store number, string and object in the PHP array.</p></li>
+                    <li><p>All PHP array elements are assigned to an index number by default.</p></li>
+                </ul>
+            </div>
+            <!-- example PHP Indexed Array -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">$season = <b>array</b>(<span class="brown1">"summer","winter",
+                        "spring","autumn"</span>);</p>
+                    <p class="green1">echo <span class="brown1">"Season are: $season[0], $season[1], 
+                        $season[2] and $season[3]"</span>;</p>
+                    <p class="green1">?&gt</p>
+                </div>
+            </div>
+            <div class="col-12 px-sm-4 px-md-5">
+                <h4 class="green1 semibold mt-4">PHP Associative Array :</h4>
+                <ul class="green1 mt-3">
+                    <li><p>We can associate name with each array elements in PHP using => symbol.</p></li>
+                </ul>
+            </div>
+            <!-- example PHP Associative Array -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">$salary = <b>array</b>(<span class="brown1">"Sonoo"</span> => <span class="brown1">"350000",</span><span class="brown1">"John"</span> => <span class="brown1">"450000",</span></span><span class="brown1">"Kartik"</span> => <span class="brown1">"200000",</span>);</p>
+                    <p class="green1">echo <span class="brown1">"Sonoo salary :".</span>$salary[<span class="brown1">"Sonoo"</span>].<span class="brown1">"&ltbr&gt"</span>;</p>
+                    <p class="green1">echo <span class="brown1">"John salary :".</span>$salary[<span class="brown1">"John"</span>].<span class="brown1">"&ltbr&gt"</span>;</p>
+                    <p class="green1">echo <span class="brown1">"Kartik salary :".</span>$salary[<span class="brown1">"Kartik"</span>].<span class="brown1">"&ltbr&gt"</span>;</p>
+                    <p class="green1">?&gt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHP String -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">PHP String</h2>
+                <ul class="green1 mt-3">
+                    <li><p>PHP string is a sequence of characters i.e., used to store and manipulate text.</p></li>
+                    <li class="py-2"><p>PHP supports only 256-character set and so that it does not offer native Unicode support.</p></li>
+                    <li><p>There are 2 ways to specify a string literal in PHP.</p></li>
+                </ul>
+                <ul class="c green1">
+                    <li class="py-2"><p>single quoted</p></li>
+                    <li><p>double quoted</p></li>
+                </ul>
+                <h4 class="green1 semibold mt-4">Single Quoted :</h4>
+                <ul class="green1 mt-3">
+                    <li><p>We can create a string in PHP by enclosing the text in a single-quote.</p></li>
+                    <li class="py-2"><p>It is the easiest way to specify string in PHP.</p></li>
+                    <li><p>For specifying a literal single quote, escape it with a backslash (\) and to specify a literal backslash (\) use double backslash (\\).</p></li>
+                    <li class="py-2"><p> All the other instances with backslash such as \r or \n, will be output same as they specified instead of having any special meaning.</p></li>
+                </ul>
+            </div>
+            <!-- example Single Quoted -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">$str = <span class="brown1">'Hello text within single quote'</span>;</p>
+                    <p class="green2">echo $str</p>
+                    <div class="green1">?&gt</div>
+                </div>
+            </div>
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h4 class="green1 semibold mt-4">Double Quoted :</h4>
+                <ul class="green1 mt-3">
+                    <li class="py-2"><p>In PHP, we can specify string through enclosing text within double quote also.</p></li>
+                    <li><p>But escape sequences and variables will be interpreted using double quote PHP strings.</p></li>
+                </ul>
+            </div>
+            <!-- example Double Quoted -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green1">&lt?php</p>
+                    <p class="green1">$str = <span class="brown1">"Hello text within double quote"</span>;</p>
+                    <p class="green2">echo $str</p>
+                    <div class="green1">?&gt</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHP Form Handling -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">PHP Form Handling</h2>
+                <ul class="green1 mt-3">
+                    <li><p>We can create and use forms in PHP.</p></li>
+                    <li class="py-2"><p>To get form data, we need to use PHP superglobals $_GET and $_POST.</p></li>
+                    <li><p>The form request may be get or post.</p></li>
+                    <li class="py-2"><p>To retrieve data from get request, we need to use $_GET, for post request $_POST.</p></li>
+                </ul>
+                <h4 class="green1 semibold mt-4">PHP Get Form :</h4>
+                <ul class="green1 mt-3">
+                    <li class="py-2"><p>Get request is the default form request. The data passed through get request is visible on the URL browser so it is not secured.</p></li>
+                    <li><p>You can send limited amount of data through get request.</p></li>
+                </ul>
+                <h4 class="green1 semibold mt-4">PHP Post Form :</h4>
+                <ul class="green1 mt-3">
+                    <li><p>Post request is widely used to submit form that have large amount of data such as file upload, image upload, login form, registration form etc.</p></li>
+                    <li class="py-2"><p>The data passed through post request is not visible on the URL browser so it is secured.</p></li>
+                    <li><p>You can send large amount of data through post request.</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+ 
+    
+    <!-- FOOTER STARTS FROM HERE -->
+    <footer class="bg-cream1 mt-5">
+        <div class="container-fluid container-fluid-xl container-xxl bg-cream1">
+            <div class="row py-4 px-1 px-sm-3 px-lg-3 px-xxl-1 ">
+                <div class="col-12 col-lg-7">
+                    <h2 class="green1 boldFont">Contact Us</h2>
+                    <p class="green1 d-none d-sm-block">Have questions, suggestions, or just want to say hi? We'd love
+                        to hear from you! Drop us a line at contact@quizies.com and we'll get back to you as soon as
+                        possible.</p>
+                </div>
+                <div class="col-12 col-lg-5 align-items-lg-center d-lg-flex justify-content-lg-end">
+                    <form action="" class="">
+                        <div class="input-group">
+                            <input type="email" placeholder="youremail@gmail.com"
+                                class="cream1 bg-green1 border-0 py-1 px-2 px-md-4 d-flex align-items-center">
+                            <input type="submit" value="SUBMIT" class="submit-footer px-3 px-md-4 green1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bg-brown2">
+            <div class="container-fluid container-fluid-xl container-xxl">
+                <div class="row row-cols-5">
+                    <div class="col-12 d-flex justify-content-center justify-content-sm-start">
+                        <div class="col-8 col-sm-4 p-3 my-2 p-md-4 col-lg-3 col-xl-2">
+                            <a href="#" class="">
+                                <img src="images/2.png" alt="Logo" class="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center col-sm-6 col-lg-4 col-xl text-xl-start ps-xl-4">
+                        <h1 class="green1 py-2 boldFont fs-3 px-xl-2">About Us</h1>
+                        <p class="cream1 px-2">Welcome to <span class="green1">Quizzies</span>, your ultimate
+                            destination for fun and knowledge! We're passionate about quizzes and trivia, dedicated to
+                            providing you with an engaging platform to test your wits and learn something new every day.
+                        </p>
+                        <p class="green1 px-xl-2">Privacy Policy</p>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 pt-sm-0 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Learning path</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Web Development</li>
+                            <li>Python Developer</li>
+                            <li>Coding</li>
+                            <li>Foundations</li>
+                            <li>Front-end for Beginners</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 col-lg-4 pt-lg-0 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Begginer's Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Scratch</li>
+                            <li>Blockly</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Intermediate Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>JAVA</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
+                            <li>Ruby</li>
+                            <li>PHP</li>
+                            <li>Swift</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Frameworks</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Django(Python)</li>
+                            <li>Ruby on Rails (Ruby)</li>
+                            <li>Express.js (JavaScript - Node.js)</li>
+                            <li>Laravel (PHP)</li>
+                            <li>ASP.NET Core (C#)</li>
+                            <li>Angular (JavaScript/TypeScript)</li>
+                            <li>React.js (JavaScript)</li>
+                            <li>Flutter (Dart)</li>
+                            <li>React Native (JavaScript)</li>
+                            <li>NativeScript (JavaScript)</li>
+                            <li>Unity (C#)</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-3 pt-lg-0 col-sm-6 col-lg-4 col-xl-12 py-lg-0">
+                        <h1 class="green1 py-2 boldFont fs-3">Follow Us</h1>
+                        <ul class="list-unstyled cream1 d-flex justify-content-center col-xl-4 mx-xl-auto">
+                            <li class="col-1 mx-2"><a href="#"><img src="images/facebook.png" alt="facebook logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/instagram.png" alt="instagram logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/twitter.png" alt="twitter logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/linkedin.png" alt="linkdin logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/email.png" alt="gmail logo"
+                                        class="img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="ruler bg-cream1"></div>
+                <div class="py-3 py-lg-4">
+                    <b class="green1">Copyright © 2024 Quizzies. All rights reserved.</b>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
