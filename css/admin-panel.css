@@ -1,0 +1,58 @@
+.profile-img{
+    width: 30px;
+    height: 30px;
+    background-color: #22495A;
+    border-radius: 50%;
+}
+#adminSearch{
+    border-radius: 40px;
+    background-color: #F4EFEB;
+    box-shadow: 2px 2px 10px #998f867b;
+    border: transparent;
+    width: 100%;
+}
+.quiz-box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.242);
+}
+.icon-circle{
+    background-image: linear-gradient(-45deg, #998F86, #C3AE95, #F4EFEB);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.icon-circle-green{
+    background-image: linear-gradient(-45deg, #22495A, #476572);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+@media only screen and (max-width: 425px){
+    .admin-card{
+        width: 100%;
+        background-image: linear-gradient(45deg, #22495A, #476572);
+        border-radius: 12px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 425px){
+    .admin-card{
+        width: 100%;
+        background-image: linear-gradient(45deg, #22495A, #476572);
+        border-radius: 12px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .admin-card{
+        width: 100%;
+        background-image: linear-gradient(45deg, #22495A, #476572);
+        border-radius: 12px;
+        height: 200px;
+    }
+}
+/* @media only screen and (min-width: 992px)
+@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1400px)
+@media only screen and (min-width: 2560px) */
