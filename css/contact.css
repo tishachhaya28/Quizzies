@@ -1,0 +1,12 @@
+.borderForm{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.formBg{
+    background-color: #F4EFEB;
+    border: none;
+}
+.bg-green1{
+    background-color: #22495A;
+    color: white;
+}

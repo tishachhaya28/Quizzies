@@ -1,0 +1,242 @@
+.profile-btn{
+    color: #22495A;
+    border: 2px solid #22495A;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+table{
+    width: 100%;
+    border-radius: 50%;
+}
+th, td, tr{
+    padding: 10px;
+}
+/* .image{
+    width: 30px;
+    height: 30px;
+    background-color: #22495A;
+    border-radius: 50%;
+    display: none;
+} */
+@media (max-width : 320px) {
+    .circle-1{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    } 
+    .image{
+        height: 126px;
+    }
+    .circle-2{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    }
+} 
+@media (min-width: 576px){
+    .circle-1{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    }
+    .image{
+        height: 126px;
+    }
+    .circle-2{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    } 
+    .image-profile{
+        height: 86px;
+    }
+}
+@media (max-width: 576px){
+    .circle-1{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;  
+    }
+    .image{
+        height: 126px;
+    }
+
+    .circle-2{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    } 
+    .image-profile{
+        height: 106px;
+    }
+}
+@media (min-width: 768px){
+    .circle-1{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    } 
+    .image{
+        height: 146px;
+    }
+    .circle-2{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    }
+    .image-profile{
+        height: 126px;
+    }
+}
+@media (min-width: 992px) { 
+    .circle-1{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    }
+    .image{
+        height: 166px;
+    }
+    .circle-2{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    }
+    .image-profile{
+        height: 146px;
+    }
+}
+@media (min-width: 1200px) { 
+    .circle-1{
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    }
+    .image{
+        height: 186px;
+    }
+    .circle-2{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        background-color: #F4EFEB;
+        border: 2px solid #998F86;
+    }
+    .image-profile{
+        height: 166px;
+    }
+}
+/* .leader-body{
+    width: 100%;
+    border-radius: 23px;
+    background-color: #22495A;
+    border: 2px solid #22495A;
+    height: 90px;
+}
+.leader-profile{
+    border-radius: 18px;
+    background-color: #998F86;
+    border: 2px solid #998F86;
+    height: 60px;
+} */
+
+@media (min-width : 320px) { 
+    .leader-body{
+        width: 100%;
+        border-radius: 23px;
+        background-color: #22495A;
+        border: 2px solid #22495A;
+    }
+    .leader-body-2{
+        width: 100%;
+        border-radius: 23px;
+        background-color: #F4EFEB;
+        border: 2px solid #F4EFEB;
+    }
+    .leader-profile{
+        padding: 20px;
+        border-radius: 18px;
+        background-color: #998F86;
+        border: 2px solid #998F86;
+    } 
+
+  }
+  @media (min-width : 425px) { 
+    .leader-body{
+        width: 100%;
+        border-radius: 23px;
+        background-color: #22495A;
+        border: 2px solid #22495A;
+        
+    }
+    .leader-profile{
+        border-radius: 18px;
+        background-color: #998F86;
+        border: 2px solid #998F86;
+       
+    } 
+    
+  }
+  @media (min-width: 576px) { 
+    .leader-body{
+        width: 100%;
+        border-radius: 23px;
+        background-color: #22495A;
+        border: 2px solid #22495A;
+        
+    }
+    .leader-profile{
+        border-radius: 18px;
+        background-color: #998F86;
+        border: 2px solid #998F86;
+       
+    } 
+   
+  }
+  
+   @media (max-width: 576px) { 
+    
+  }
+  
+  
+ @media (min-width: 768px) { 
+   
+   
+  } 
+  
+  @media (min-width: 992px) { 
+   
+  }
+  
+  @media (min-width: 1200px) { 
+      
+   }
+  
+  
+  @media (min-width: 1400px) {
+  
+    
+   }
