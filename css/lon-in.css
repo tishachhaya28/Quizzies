@@ -1,0 +1,24 @@
+.form{
+    background-color: #F4EFEB;
+    border-radius: 10px;
+    /* border: 2px solid #22495A; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.email{
+    background-color: #F4EFEB;
+    border: 2px solid #22495A;
+    border-radius: 7px;
+}
+.create{
+    background-color: #476572;
+    border: 2px solid #476572;
+    border-radius: 25px;  
+}
+.create:hover{
+    background-color: #22495A;
+    color: #F4EFEB;
+    border: 2px solid #22495A;
+    border-radius: 25px;  
+}
+
+

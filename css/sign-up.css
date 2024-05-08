@@ -1,0 +1,11 @@
+.sign-up{
+    background-color: #476572;
+    border: 2px solid #476572;
+    border-radius: 25px;  
+}
+.sign-up:hover{
+    background-color: #22495A;
+    color: #F4EFEB;
+    border: 2px solid #22495A;
+    border-radius: 25px;  
+}
