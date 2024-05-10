@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/CSS-intro.css">
+</head>
+
+<!-- NAVBAR STARTS FROM HERE -->
+
+<nav class="navbar navbar-expand-lg nav ">
+  <div class="container-fluid container-xxl">
+    <a class="navbar-brand col-5 col-sm-4 col-md-3 col-lg-2 p-1" href="#">
+      <img src="./images/1.png" alt="Logo" class="img">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav boldFont">
+        <li class="nav-item">
+          <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active nav-text" aria-current="page" href="#">QUIZZ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active nav-text" aria-current="page" href="#">LEADER BOARD</a>
+        </li>
+        <li class=" py-1 d-block d-lg-none">
+          <button class="sign-btn py-1 px-4">SIGN UP</button>
+        </li>
+        <li class=" py-1 d-block d-lg-none">
+          <button class="log-btn py-1 px-4">LOG IN</button>
+        </li>
+      </ul>
+    </div>
+    <div class="px-3 d-none d-lg-block">
+      <button class="sign-btn py-1 px-4">SIGN UP</button>
+    </div>
+    <div class="px-3 d-none d-lg-block">
+      <button class="log-btn py-1 px-4">LOG IN</button>
+    </div>
+  </div>
+</nav>
+
+<!-- MAIN SECTION STARTS -->
+
+<body>
+  <div class="container-fluid container-xxl">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="brown1 text-center mt-5 extrabold">CSS</h1>
+      </div>
+    </div>
+  </div>
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-5">
+        <h2 class="green1 fs-3 boldFont text-center mt-4">What is CSS?</h2>
+        <p class="green1 mt-4">
+          CSS stands for Cascading Style Sheets. It's a language used to style the appearance of HTML elements on web
+          pages.
+        </p>
+
+        <h2 class="green1 fs-3 boldFont text-center mt-5">Why is CSS important?</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>CSS allows web designers to control the layout, colors, fonts, and other visual aspects of a webpage.</p>
+          </li>
+          <li class="py-2">
+            <p>It separates the content of a webpage from its presentation, making websites easier to maintain and
+              update.</p>
+          </li>
+        </ul>
+
+        <h2 class="green1 fs-3 boldFont text-center mt-5">How does CSS work?</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>CSS works by targeting HTML elements and applying styling rules to them.</p>
+          </li>
+          <li class="py-2">
+            <p>These rules can be defined inline, in a separate CSS file, or internally within the HTML document.</p>
+          </li>
+        </ul>
+
+        <h2 class="green1 fs-3 boldFont text-center mt-5">Basic CSS syntax:</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>Selectors: Identify which HTML elements the styles should be applied to.</p>
+          </li>
+          <li class="py-2">
+            <p>Properties: Define the aspects of the elements you want to style, such as color, size, and position.</p>
+          </li>
+          <li>
+            <p>Values: Specify the specific settings for the properties, like 'red' for color or '20px' for size.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5"> CSS Selectors:</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>Selectors are patterns that match elements in an HTML document. They can be based on element names, classes, IDs, attributes, or relationships between elements.</p>
+          </li>
+          </ul>
+
+          <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+            <h4 class="green2 py-2">Example:</h4>
+
+            <p class="green1"> <span class="brown1">Element Selector:</span> `p { color: blue;}`</p>
+            <p class="green1"> <span class="brown1">Class Selector:</span> `.highlight { background-color: yellow; }`</p>
+            <p class="green1"> <span class="brown1">ID Selector:</span> `#header { font-size: 24px; }`</p>
+            <p class="green1"> <span class="brown1">`border:</span>1px solid black;`</p>
+            <p class="green1"> <span class="brown1">Attribute Selector: </span> `input[type="text"] { border: 1px solid black; }`</p>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5"> CSS Properties:</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>Properties are the styling attributes you apply to the selected elements. Each property has a specific value.</p>
+          </li>
+          </ul>
+
+          <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+            <h4 class="green2 py-2">Example:</h4>
+
+            <p class="green1"> <span class="brown1">`color`:</span> Specifies the size of the font.</p>
+            <p class="green1"> <span class="brown1">`font-size`:</span> Specifies the background color.</p>
+            <p class="green1"> <span class="brown1">`background-color`:</span> Specifies the border around an element.</p>
+            <p class="green1"> <span class="brown1">`border`:</span></p>
+            <p class="green1"> <span class="brown1">`margin`,`padding`:</span> Specifies the spacing around an element.</p>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5"> CSS Values:</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>Values are assigned to properties to define how they should be applied. Values can be keywords, numeric values, colors, URLs, etc.</p>
+          </li>
+          </ul>
+
+          <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+            <h4 class="green2 py-2">Example:</h4>
+
+            <p class="green1"> <span class="brown1">`color:</span> blue;`</p>
+            <p class="green1"> <span class="brown1">`font-size:</span> 16px;`</p>
+            <p class="green1"> <span class="brown1">`background-color`:</span> #ffffff;`</p>
+            <p class="green1"> <span class="brown1">`border:</span>1px solid black;`</p>
+            <p class="green1"> <span class="brown1">`margin`,`padding`:</span> 10px;`</p>
+          </div>
+
+      </div>
+    </div>
+  </section>
+  
+
+
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-5 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5">How to add CSS</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <h6>External CSS</h6>
+          </li>
+          <li>
+            <h6>Internal CSS</h6>
+          </li>
+          <li>
+            <h6>Inline CSS</h6>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5">CSS Selectors</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <h6>Simple selectors (select elements based on name, id, class)</h6>
+          <li>
+            <h6>Combinator selectors (select elements based on a specific relationship between them)</h6>
+          </li>
+          <li>
+            <h6>Pseudo-class selectors (select elements based on a certain state)</h6>
+          </li>
+          <li>
+            <h6>Pseudo-elements selectors (select and style a part of an element)</h6>
+          </li>
+          <li>
+            <h6>Attribute selectors (select elements based on an attribute or attribute value)</h6>
+          </li>
+          </li>
+        </ul>
+
+        <h3 class="green1 boldFont fs-4 mt-5">Attribute Selectors:</h3>
+        <ul class="green1 mt-3">
+          <li>
+            <p>These selectors target elements based on their attributes and attribute values.</p>
+          </li>
+          <li class="py-2">
+            <p>Examples include [attribute], [attribute=value], [attribute~=value], [attribute|=value], and
+              [attribute^=value].</p>
+          </li>
+
+          <ol class="p brown1">
+            <li>
+              <p>CSS [attribute="value"] Selector</p>
+            </li>
+            <li>
+              <p>CSS [attribute~="value"] Selector</p>
+            </li>
+            <li>
+              <p>CSS [attribute|="value"] Selector</p>
+            </li>
+            <li>
+              <p>CSS [attribute^="value"] Selector</p>
+            </li>
+            <li>
+              <p>CSS [attribute$="value"] Selector</p>
+            </li>
+            <li>
+              <p>CSS [attribute*="value"] Selector</p>
+            </li>
+          </ol>
+
+        </ul>
+
+
+        <h3 class="green1 fs-4 boldFont mt-5">Pseudo-classes:</h3>
+        <ul class="green1 mt-3">
+          <li>
+            <p>Pseudo-classes select elements based on their state or position.</p>
+          </li>
+          <li class="py-2">
+            <p>Common pseudo-classes include `:hover`, `:active`, `:focus`, `:first-child`, `:last-child`,
+              `:nth-child()`, `:nth-of-type()`, `:not()`, `:checked`, `:disabled`, and `:enabled.`</p>
+          </li>
+
+          <ol class="p brown1">
+            <li>
+              <p>Anchor Pseudo-classes</p>
+            </li>
+            <li>
+              <p>The :first-child Pseudo-class</p>
+            </li>
+            <li>
+              <p>The :lang Pseudo-class</p>
+            </li>
+            <li>
+              <p>general sibling selector (~)</p>
+            </li>
+          </ol>
+        </ul>
+
+        <h3 class="green1 fs-4 boldFont  mt-5">Pseudo-elements:</h3>
+        <ul class="green1 mt-3">
+          <li>
+            <p>Pseudo-elements target certain parts of elements rather than whole elements.</p>
+          </li>
+          <li class="py-2">
+            <p>Examples include `::before`, `::after`, `::first-line`, and `::first-letter`.</p>
+          </li>
+
+          <ol class="p brown1">
+            <li>
+              <p>The ::first-letter Pseudo-element</p>
+            </li>
+            <li>
+              <p>The ::first-line Pseudo-element</p>
+            </li>
+            <li>
+              <p>The ::before Pseudo-element</p>
+            </li>
+            <li>
+              <p> The ::after Pseudo-element</p>
+            </li>
+            <li>
+              <p>The ::marker Pseudo-element</p>
+            </li>
+            <li>
+              <p>The ::selection Pseudo-element</p>
+            </li>
+          </ol>
+        </ul>
+
+        <h3 class="green1 fs-4 boldFont  mt-5">Combinators:</h3>
+        <ul class="green1 mt-3">
+          <li>
+            <p>Combinators specify relationships between selectors.</p>
+          </li>
+          <li class="py-2">
+            <p>Common combinators include descendant combinator (` `), child combinator (`>`), adjacent sibling
+              combinator (`+`), and general sibling combinator (`~`).</p>
+          </li>
+
+          <ol class="p brown1">
+            <li>
+              <p>descendant selector (space)</p>
+            </li>
+            <li>
+              <p>child selector (>)</p>
+            </li>
+            <li>
+              <p>adjacent sibling selector (+)</p>
+            </li>
+            <li>
+              <p>general sibling selector (~)</p>
+            </li>
+          </ol>
+
+        </ul>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-5 ">
+
+        <h2 class="green1 fs-3 boldFont text-center mt-5">CSS Border Style</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <h6><span class="brown1">dotted</span>- Defines a dotted border</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">dashed</span>- Defines a dashed border</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">solid</span>- Defines a solid border</h6>
+          </li>
+
+          <li>
+            <h6><span class="brown1">double</span>- Defines a double border</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">groove </span>- Defines a 3D grooved border. The effect depends on the border-color
+              value</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">ridge</span>- Defines a 3D ridged border. The effect depends on the border-color
+              value</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">inset</span>- Defines a 3D inset border. The effect depends on the border-color
+              value</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">outset</span>- Defines a 3D outset border. The effect depends on the border-color
+              value</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">none</span>- Defines no border</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">hidden</span>- Defines a hidden border</h6>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5">CSS Overflow</h2>
+        <ul class="green1 mt-4">
+          <li>
+            <h6><span class="brown1">visible</span>- Default. The overflow is not clipped. The content renders outside
+              the element's box</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">hidden</span>- The overflow is clipped, and the rest of the content will be
+              invisible</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">scroll</span>- The overflow is clipped, and a scrollbar is added to see the rest of
+              the content</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">auto</span>- Similar to scroll, but it adds scrollbars only when necessary</h6>
+          </li>
+        </ul>
+
+
+        <h3 class="green1 fs-4 boldFont  mt-5">overflow: visible</h3>
+        <ul class="green1 mt-4">
+          <li>
+            <p>By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's
+              box:</p>
+          </li>
+        </ul>
+        <div class="col-12 px-sm-5 bg-cream1 px-4 py-4 ">
+          <h4 class="green2 py-2 ">Example:</h4>
+          <p class="green1">// div { </p>
+          <p class="green1">// overflow: visible; </p>
+          <p class="green1">// } </p>
+        </div>
+
+
+        <h3 class="green1 fs-4 boldFont mt-4">overflow: hidden</h3>
+        <ul class="green1 mt-4">
+          <li>
+            <p>With the hidden value, the overflow is clipped, and the rest of the content is hidden</p>
+          </li>
+        </ul>
+        <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+          <h4 class="green2 py-2">Example:</h4>
+          <p class="green1">// div { </p>
+          <p class="green1">// overflow: hidden; </p>
+          <p class="green1">// } </p>
+        </div>
+
+
+        <h3 class="green1 fs-4 boldFont mt-4">overflow: scroll</h3>
+        <ul class="green1 mt-4">
+          <li>
+            <p>Setting the value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box.
+              Note that this will add a scrollbar both horizontally and vertically </p>
+          </li>
+        </ul>
+        <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+          <h4 class="green2 py-2">Example:</h4>
+          <p class="green1">// div {
+          <p class="green1">// overflow: scroll;</p>
+          <p class="green1">// } </p>
+        </div>
+
+        <h3 class="green1 fs-4 boldFont  mt-4">overflow: auto</h3>
+        <ul class="green1 mt-4">
+          <li>
+            <p>The auto value is similar to scroll, but it adds scrollbars only when necessary </p>
+          </li>
+        </ul>
+        <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+          <h4 class="green2 py-2">Example:</h4>
+          <p class="green1">// div {
+          <p class="green1">// overflow: auto;</p>
+          <p class="green1">// } </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5">z-index </h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>When elements are positioned, they can overlap other elements.</p>
+          </li>
+          </ul>
+
+          <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+            <h4 class="green2 py-2">Example:</h4>
+            <p class="green1">// img {
+            <p class="green1">//  position: absolute;</p>
+            <p class="green1">//  left: 0px;</p>
+            <p class="green1">// top: 0px;</p>
+            <p class="green1">//  z-index: -1;</p>
+            <p class="green1">// } </p>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5">float and clear</h2>
+        <ul class="green1 mt-4">
+          <h3 class="green1 fs-4 boldFont  mt-5">The float Property</h3>
+          <li>
+            <p>The CSS float property specifies how an element should float.</p>
+          </li>
+          <li>
+            <p>The CSS clear property specifies what elements can float beside the cleared element and on which side.</p>
+          </li>
+          <li>
+            <h6 class="mt-3"><span class="brown1 ">left</span>- The element floats to the left of its container</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">right</span>- The element floats to the right of its container</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">none</span>- The element does not float (will be displayed just where it occurs in the text). This is default</h6>
+          </li>
+          <li>
+            <h6><span class="brown1">inherit</span> - The element inherits the float value of its parent</h6>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5">CSS Masking </h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>With CSS masking you create a mask layer to place over an element to partially or fully hide portions of the element.</p>
+          </li>
+          </ul>
+
+          <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+            <h4 class="green2 py-2">Example:</h4>
+            <p class="green1">// .mask1 {
+            <p class="green1">//  -webkit-mask-image: url( );</p>
+            <p class="green1">//  mask-image: url();</p>
+            <p class="green1">//  -webkit-mask-repeat: no-repeat;</p>
+            <p class="green1">//   mask-repeat: no-repeat;</p>
+            <p class="green1">// } </p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid container-xxl mt-3 mt-md-4 ">
+    <div class="row">
+      <div class="col-12 px-sm-4 ">
+        <h2 class="green1 fs-3 boldFont text-center mt-5">The display Property </h2>
+        <ul class="green1 mt-4">
+          <li>
+            <p>The display property is the most important CSS property for controlling layout.</p>
+          </li>
+          </ul>
+
+          <div class="col-12 px-sm-5 bg-cream1 px-4 py-4">
+            <h4 class="green2 py-2">Example:</h4>
+            <p class="green1">// div </p>
+            <p class="green1">// h1 - h6  </p>
+            <p class="green1">// p </p>
+            <p class="green1">// form  </p>
+            <p class="green1">// header   </p>
+            <p class="green1">// footer  </p>
+            <p class="green1">// section  </p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER STARTS FROM HERE -->
+  <footer class="bg-cream1 mt-4">
+    <div class="container-fluid container-fluid-xl container-xxl bg-cream1">
+      <div class="row py-4 px-1 px-sm-3 px-lg-3 px-xxl-1 ">
+        <div class="col-12 col-lg-7">
+          <h2 class="green1 boldFont">Contact Us</h2>
+          <p class="green1 d-none d-sm-block">Have questions, suggestions, or just want to say hi? We'd love to hear
+            from you! Drop us a line at contact@quizies.com and we'll get back to you as soon as possible.</p>
+        </div>
+        <div class="col-12 col-lg-5 align-items-lg-center d-lg-flex justify-content-lg-end">
+          <form action="" class="">
+            <div class="input-group">
+              <input type="email" placeholder="youremail@gmail.com"
+                class="cream1 bg-green1 border-0 py-1 px-2 px-md-4 d-flex align-items-center">
+              <input type="submit" value="SUBMIT" class="submit-footer px-3 px-md-4 green1">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bg-brown2">
+      <div class="container-fluid container-fluid-xl container-xxl">
+        <div class="row row-cols-5">
+          <div class="col-12 d-flex justify-content-center justify-content-sm-start">
+            <div class="col-8 col-sm-4 p-3 my-2 p-md-4 col-lg-3 col-xl-2">
+              <a href="#" class="">
+                <img src="images/2.png" alt="Logo" class="img">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 text-center col-sm-6 col-lg-4 col-xl text-xl-start ps-xl-4">
+            <h1 class="green1 py-2 boldFont fs-3 px-xl-2">About Us</h1>
+            <p class="cream1 px-2">Welcome to <span class="green1">Quizzies</span>, your ultimate destination for fun
+              and knowledge! We're passionate about quizzes and trivia, dedicated to providing you with an engaging
+              platform to test your wits and learn something new every day.</p>
+            <p class="green1 px-xl-2">Privacy Policy</p>
+          </div>
+          <div class="text-center col-12 pt-2 col-sm-6 pt-sm-0 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Learning path</h1>
+            <ul class="list-unstyled cream1">
+              <li>Web Development</li>
+              <li>Python Developer</li>
+              <li>Coding</li>
+              <li>Foundations</li>
+              <li>Front-end for Beginners</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 col-sm-6 col-lg-4 pt-lg-0 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Begginer's Quiz</h1>
+            <ul class="list-unstyled cream1">
+              <li>Scratch</li>
+              <li>Blockly</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Intermediate Quiz</h1>
+            <ul class="list-unstyled cream1">
+              <li>JAVA</li>
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>PHP</li>
+              <li>Swift</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+            <h1 class="green1 py-2 boldFont fs-3">Frameworks</h1>
+            <ul class="list-unstyled cream1">
+              <li>Django(Python)</li>
+              <li>Ruby on Rails (Ruby)</li>
+              <li>Express.js (JavaScript - Node.js)</li>
+              <li>Laravel (PHP)</li>
+              <li>ASP.NET Core (C#)</li>
+              <li>Angular (JavaScript/TypeScript)</li>
+              <li>React.js (JavaScript)</li>
+              <li>Flutter (Dart)</li>
+              <li>React Native (JavaScript)</li>
+              <li>NativeScript (JavaScript)</li>
+              <li>Unity (C#)</li>
+            </ul>
+          </div>
+          <div class="text-center col-12 pt-3 pt-lg-0 col-sm-6 col-lg-4 col-xl-12 py-lg-0">
+            <h1 class="green1 py-2 boldFont fs-3">Follow Us</h1>
+            <ul class="list-unstyled cream1 d-flex justify-content-center col-xl-4 mx-xl-auto">
+              <li class="col-1 mx-2"><a href="#"><img src="images/facebook.png" alt="facebook logo" class="img"></a>
+              </li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/instagram.png" alt="instagram logo" class="img"></a>
+              </li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/twitter.png" alt="twitter logo" class="img"></a>
+              </li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/linkedin.png" alt="linkdin logo" class="img"></a>
+              </li>
+              <li class="col-1 mx-2"><a href="#"><img src="images/email.png" alt="gmail logo" class="img"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center">
+        <div class="ruler bg-cream1"></div>
+        <div class="py-3 py-lg-4">
+          <b class="green1">Copyright © 2024 Quizzies. All rights reserved.</b>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="./js/bootstrap.js"></script>
+
+</body>
+
+</html>
