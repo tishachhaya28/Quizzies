@@ -1,0 +1,33 @@
+ul.b {
+    list-style-type: square;
+}
+
+ul.c{
+    list-style-type: upper-roman;
+}
+
+.border-green{
+    border: 1px solid #22495A;
+    border-radius: 5px;
+}
+.border-brown{
+    border: 1px solid #998F86;
+    border-radius: 5px;
+}
+th{
+    padding: 10px 10px;
+    border: 1px solid #998F86;
+    vertical-align: top;
+}
+td, tr{
+    padding: 10px 15px;
+    border: 1px solid #22495A;
+    vertical-align: top;
+}
+table{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #998F86;
+    color: #F4EFEB;
+}

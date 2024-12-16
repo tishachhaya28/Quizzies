@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/certificate.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <!-- NAVBAR STARTS FROM HERE -->
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid container-xxl">
+            <a class="navbar-brand col-5 col-sm-4 col-md-3 col-lg-2 p-1" href="#">
+                <img src="./images/1.png" alt="Logo" class="img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav boldFont">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">QUIZZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">LEADER BOARD</a>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="sign-btn py-1 px-4">SIGN UP</button>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="log-btn py-1 px-4">LOG IN</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="sign-btn py-1 px-4">SIGN UP</button>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="log-btn py-1 px-4">LOG IN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN SECTION STARTS FROM HERE -->
+    <section class="container-fluid container-xxl ">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5 mt-5">
+                <h1 class="brown1 extrabold text-center">HTML</h1>
+            </div>
+            <div class="col-12 mt-3 mt-sm-5 px-sm-4 px-md-5 mt-5">
+                <h2 class="green1 boldFont fs-3 text-center">What is HTML?</h2>
+                <ul class="green1 mt-4">
+                    <li><p>HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p></li>
+                    <li><p class="py-2">It defines the content structure of web content.</p></li>
+                    <li><p>It is often assisted by technologies such as Cascading Style Sheets (CSS) and Scripting languages such as Javascript.</p></li>
+                    <li><p class="py-2">HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p></li>
+                    <li><p>HTML consists of a series of elements.</p></li>
+                </ul>
+            </div>      
+        </div>
+    </section>
+
+    <!-- HTML structure -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <h2 class="green1 fs-3 boldFont mt-3 mt-lg-5 text-center px-md-3">HTML structure</h2>
+                <div class="col-md-12 mx-auto border-green p-2 p-md-4 mt-4 mx-sm-4 mx-md-0 mt-md-5 col-lg-8 mx-lg-auto col-xl-6">
+                    <img src="./images/stucture.png" alt="Server-Demo" class="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Element -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="ccol-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 fs-3 boldFont text-center px-md-3">HTML Element</h2>
+                <ul class="green1 mt-3">
+                    <li><p>The HTML element is <b>element</b> from the start tag to the end tag:</p></li>
+                    <p class="py-2">&lt<span class="brown1 medium">tagname</span>&gt Content goes here... &lt <span class="brown1 medium">/tagname</span>&gt</p>
+                </ul>
+                <h3 class="green2 fs-4 text-center text-sm-start mt-3 py-2">Type of Elements</h3>
+                <ul class="green1 mt-3">
+                    <li><p><b class="green1 fs-5">Block-level elements:</b> These elements typically start on a new line and occupy the full width available. Examples include &ltdiv&gt, &ltp&gt, &lth1&gt to &lth6&gt.</p></li>
+                    <li class="py-2"><p><b class="green1 fs-5">Inline elements:</b> These elements do not start on a new line and only occupy the space bounded by the tags that define the element's content. Examples include &ltspan&gt, &lta&gt, &ltstrong&gt.</p></li>
+                </ul>
+                <!-- Common HTML Element -->
+                <h3 class="green2 fs-4 text-center text-sm-start mt-3 py-2">Common HTML Element</h3>
+                <ul class="green1 mt-3">
+                    <li><p><b class="fs-5">&ltdiv&gt :</b>  Defines a division or section in an HTML document.</p></li>
+                    <li class="py-3"><p><b class="fs-5">&ltb&gt :</b>  Defines a paragraph.</p></li>
+                    <li><p><b class="fs-5">&lta&gt :</b>  Defines a hyperlink.</p></li>
+                    <li class="py-3"><p><b class="fs-5">&ltimg&gt :</b>  Defines an image.</p></li>
+                    <li><p><b class="fs-5">&ltul&gt :</b>  Defines an unordered list.</p></li>
+                    <li class="py-3"><p><b class="fs-5">&ltol&gt :</b>  Defines an ordered list.</p></li>
+                    <li><p><b class="fs-5">&ltli&gt :</b>  Defines a list item.</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Comment -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <h2 class="green1 fs-3 boldFont text-center px-md-3">HTML Comment</h2>
+                <div class="col-12 px-sm-4 px-md-5">
+                    <ul class="green1 mt-3">
+                        <li><p>You can add comments to your HTML source by using the following syntax:</p></li>
+                        <p class="brown1 ms-2 py-2">&lt!-- Write your comments here -- &gt</p>
+                    </ul>
+                </div>
+            </div>
+            <!-- example starts -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p>&lt<span class="brown1">p</span>&gt This is a paragraph. &lt<span class="brown1">/p</span>&gt</p>
+                    <p class="py-2"><b class="brown1">&lt !--</b> &lt<span class="brown1">p</span>&gt Look at this cool image: &lt<span class="brown1">/p</span>&gt</p>
+                    <p class="ms-5">&lt<span class="brown1">img</span>&gt border="0" src="pic_trulli.jpg" alt="Trulli"&gt <span><b class="brown1">--&gt</b></span></p>
+                    <p class="py-2">&lt<span class="brown1">p</span>&gt This is a paragraph too. &lt<span class="brown1">/p</span>&gt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Color -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">HTML Color</h2>
+                <h3 class="green2 fs-4 text-center text-sm-start mt-3 py-2">Background color</h3>
+                <ul class="green1 mt-3">
+                    <li><p>You can set the background color for HTML elements:</p></li>
+                </ul>
+                <div class="bg-brown2 d-flex justify-content-center align-items-center">Hello World</div>
+                <div class="bg-green2 box">
+                  <p class="brown2 d-flex justify-content-center align-items-center mt-2 p-3 ">Lorem ipsum dolor sit amet,
+                    consectetuer
+                    adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                    lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed
+                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                    lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+            </div>
+            <!-- example starts -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4 mt-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p>&lt<span class="brown1">h1</span> style="background-color: <span class="brown1">Browen;</span>">Hello World &lt<span class="brown1">/h1</span>&gt</p>
+                    <p class="py-2">&lt<span class="brown1">p</span> style="background-color: <span class="brown1">Pastel mate green1;</span>"> Lorem ipsum... &lt<span class="brown1">/p</span>&gt</p>
+                </div>
+            </div>
+            <!-- Color Representation -->
+            <div class="col-12 mt-4 px-sm-4 px-md-5">
+                <h4 class="green1 boldFont">Color Representation :-</h4>
+                <ul class="green1 mt-3">
+                  <li><p><b>Color Names:</b> HTML supports a set of predefined color names, such as red, green, green1, etc.</p></li>
+                  <li class="py-2"><p><b>RGB:</b> Stands for Red, Green, green1. Colors are defined by their intensity of each color  component, ranging from 0 to 255. For example, rgb(255, 0, 0) represents red.</p></li>
+                  <li><p><b>Hexadecimal:</b> The most common method, using a six-digit code preceded by a hash symbol (#). For example, #FF0000 represents red.</p></li>
+                  <li class="py-2"><p><b>hue, saturation, lightness:</b> Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is green1. Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color. Lightness is also a percentage value. 0% is black, and 100% is white.</p></li>
+                </ul>
+            </div>
+        <div>
+    </section>
+
+    <!-- HTML Link -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">HTML Link</h2>
+                <h3 class="green2 fs-4 text-center text-sm-start mt-3 py-2">HTML Links - Hyperlink</h3>
+                <ul class="green1 mt-3">
+                    <li><p>The HTML &lt<span class="brown1">a</span>&gt tag defines a hyperlink.</p></li>
+                    <li class="py-2"><p>You can click on a link and jump to another document.</p></li>
+                    <li><p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p></li>
+                    <p>&lt<span class="brown1">a</span> href="<span class="brown1">url</span>"&gt link text &lt<span class="brown1">/a</span>&gt</p>
+                </ul>
+            </div>
+            <!-- example Hyperlink -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="link">&lt<span class="brown1">a</span> href="<span class="brown1">https://www.youtube.com/</span>" Visit youtube.com!<span class="brown1">/a</span>&gt</p>
+                </div>
+            </div>
+            <div class="col-12 px-sm-4 px-md-5">
+                <h3 class="green2 fs-4 text-center text-sm-start mt-3 py-2">HTML Links - absolute URL</h3>
+                <ul class="green1 mt-3">
+                    <li><p>using an <b class="green1">absolute URL </b>(a full web address) in the href attribute.</p></li>
+                </ul>
+            </div>
+            <!-- example absolute URL -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p>&lt<span class="brown1">p</span>&gt&lt<span class="brown1">a</span> href="<span class="brown1">https://www.youtube.com/</span>"&gt youtube &lt<span class="brown1">/a</span>&gt&lt<span class="brown1">/p</span>&gt</p>
+                    <p class="link">&lt<span class="brown1">p</span>&gt&lt<span class="brown1">a</span> href="<span class="brown1">https://www.google.com/</span>"&gt google &lt<span class="brown1">/a</span>&gt&lt<span class="brown1">/p</span>&gt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Table -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <h2 class="green1 text-center boldFont mt-5 fs-3">HTML Table</h2>
+                <ul class="green1 mt-3">
+                    <li><p><b class="fs-5">&lttable&gt</b>: This tag is used to define the beginning of the table.</p></li>
+                    <li><p><b class="fs-5">&lttr&gt</b>: Stands for "table row". It defines a row in the table.</p></li>
+                    <li><p><b class="fs-5">&lttd&gt</b>: tands for "table data". It defines a standard cell in the table.</p></li>
+                    <li><p><b class="fs-5">&ltth&gt</b>: Stands for "table header". It defines a header cell in the table.</p></li>
+                </ul>
+            </div>
+            <!-- example Table -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <div class="green1">&lt<span class="brown1">table</span>&gt</p>
+                    <p class="green1 ms-3">&lt<span class="brown1">tr</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">th</span>&gt Company &lt<span class="brown1">/th</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">th</span>&gt Contact &lt<span class="brown1">/th</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">th</span>&gt Country &lt<span class="brown1">/th</span>&gt</p>
+                    <p class="green1 ms-3">&lt<span class="brown1">/tr</span>&gt</div>
+
+                    <p class="green1 ms-3">&lt<span class="brown1">tr</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">td</span>&gt Alfreds Futterkiste &lt<span class="brown1">/td</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">td</span>&gt Maria Anders &lt<span class="brown1">/td</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">td</span>&gt Germany &lt<span class="brown1">/td</span>&gt</p>
+                    <p class="green1 ms-3">&lt<span class="brown1">/tr</span>&gt</p>
+
+                    <p class="green1 ms-3">&lt<span class="brown1">tr</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">td</span>&gt Centro comercial Moctezuma &lt<span class="brown1">/td</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">td</span>&gt Francisco Chang &lt<span class="brown1">/td</span>&gt</p>
+                    <p class="green1 ms-5">&lt<span class="brown1">td</span>&gt Mexico &lt<span class="brown1">/td</span>&gt</p>
+                    <p class="green1 ms-3">&lt<span class="brown1">/tr</span>&gt</p>
+                    <p class="green1">&lt<span class="brown1">table</span>&gt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER STARTS FROM HERE -->
+    <footer class="bg-cream1 mt-5">
+        <div class="container-fluid container-fluid-xl container-xxl bg-cream1">
+            <div class="row py-4 px-1 px-sm-3 px-lg-3 px-xxl-1 ">
+                <div class="col-12 col-lg-7">
+                    <h2 class="green1 boldFont">Contact Us</h2>
+                    <p class="green1 d-none d-sm-block">Have questions, suggestions, or just want to say hi? We'd love
+                        to hear from you! Drop us a line at contact@quizies.com and we'll get back to you as soon as
+                        possible.</p>
+                </div>
+                <div class="col-12 col-lg-5 align-items-lg-center d-lg-flex justify-content-lg-end">
+                    <form action="" class="">
+                        <div class="input-group">
+                            <input type="email" placeholder="youremail@gmail.com"
+                                class="cream1 bg-green1 border-0 py-1 px-2 px-md-4 d-flex align-items-center">
+                            <input type="submit" value="SUBMIT" class="submit-footer px-3 px-md-4 green1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bg-brown2">
+            <div class="container-fluid container-fluid-xl container-xxl">
+                <div class="row row-cols-5">
+                    <div class="col-12 d-flex justify-content-center justify-content-sm-start">
+                        <div class="col-8 col-sm-4 p-3 my-2 p-md-4 col-lg-3 col-xl-2">
+                            <a href="#" class="">
+                                <img src="images/2.png" alt="Logo" class="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center col-sm-6 col-lg-4 col-xl text-xl-start ps-xl-4">
+                        <h1 class="green1 py-2 boldFont fs-3 px-xl-2">About Us</h1>
+                        <p class="cream1 px-2">Welcome to <span class="green1">Quizzies</span>, your ultimate
+                            destination for fun and knowledge! We're passionate about quizzes and trivia, dedicated to
+                            providing you with an engaging platform to test your wits and learn something new every day.
+                        </p>
+                        <p class="green1 px-xl-2">Privacy Policy</p>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 pt-sm-0 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Learning path</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Web Development</li>
+                            <li>Python Developer</li>
+                            <li>Coding</li>
+                            <li>Foundations</li>
+                            <li>Front-end for Beginners</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 col-lg-4 pt-lg-0 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Begginer's Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Scratch</li>
+                            <li>Blockly</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Intermediate Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>JAVA</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
+                            <li>Ruby</li>
+                            <li>PHP</li>
+                            <li>Swift</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Frameworks</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Django(Python)</li>
+                            <li>Ruby on Rails (Ruby)</li>
+                            <li>Express.js (JavaScript - Node.js)</li>
+                            <li>Laravel (PHP)</li>
+                            <li>ASP.NET Core (C#)</li>
+                            <li>Angular (JavaScript/TypeScript)</li>
+                            <li>React.js (JavaScript)</li>
+                            <li>Flutter (Dart)</li>
+                            <li>React Native (JavaScript)</li>
+                            <li>NativeScript (JavaScript)</li>
+                            <li>Unity (C#)</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-3 pt-lg-0 col-sm-6 col-lg-4 col-xl-12 py-lg-0">
+                        <h1 class="green1 py-2 boldFont fs-3">Follow Us</h1>
+                        <ul class="list-unstyled cream1 d-flex justify-content-center col-xl-4 mx-xl-auto">
+                            <li class="col-1 mx-2"><a href="#"><img src="images/facebook.png" alt="facebook logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/instagram.png" alt="instagram logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/twitter.png" alt="twitter logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/linkedin.png" alt="linkdin logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/email.png" alt="gmail logo"
+                                        class="img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="ruler bg-cream1"></div>
+                <div class="py-3 py-lg-4">
+                    <b class="green1">Copyright © 2024 Quizzies. All rights reserved.</b>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn C#</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/Csharp-info.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+
+<body>
+    <!-- NAVBAR STARTS FROM HERE -->
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid container-xxl">
+            <a class="navbar-brand col-5 col-sm-4 col-md-3 col-lg-2 p-1" href="#">
+                <img src="./images/1.png" alt="Logo" class="img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav boldFont">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">QUIZZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#">LEADER BOARD</a>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="sign-btn py-1 px-4">SIGN UP</button>
+                    </li>
+                    <li class=" py-1 d-block d-lg-none">
+                        <button class="log-btn py-1 px-4">LOG IN</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="sign-btn py-1 px-4">SIGN UP</button>
+            </div>
+            <div class="px-3 d-none d-lg-block">
+                <button class="log-btn py-1 px-4">LOG IN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN SECTION STARTS FROM HERE -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="brown1 extrabold text-center">C#</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is C#? -->
+    <section class="container-fluid container-xxl">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-3 mt-lg-5 text-center">What is C#?</h2>
+                <ul class="green1 mt-3">
+                    <li><p>C# is pronounced "C-Sharp".</p></li>
+                    <li class="py-2"><p>It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.</p></li>
+                    <li><p>C# has roots from the C family, and the language is close to other popular languages like  C++ and Java.</p></li>
+                    <li class="py-2"><p>The first version was released in year 2002. The latest version, C# 12, was released in November 2023.</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- C# is used for -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">C# is used for</h2>
+                <ul class="green1 mt-3">
+                    <li><p>Desktop Applications: Windows Forms, WPF (Windows Presentation Foundation)</p></li>
+                    <li class="py-2"><p>Web Applications: ASP.NET, ASP.NET Core</p></li>
+                    <li><p>Mobile Applications: Xamarin (for cross-platform mobile app development)</p></li>
+                    <li class="py-2"><p>Game Development: Unity game engine</p></li>
+                    <li><p>Backend Services: Web APIs, microservices</p></li>
+                    <li class="py-2"><p>Machine Learning and AI (with libraries like ML.NET)</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- C# Variables -->
+    <section class="container-fluid container-xxl mt-5">
+            <div class="row">
+                <div class="col-12 col-12 px-sm-4 px-md-5">
+                    <h2 class="green1 boldFont mt-5 fs-3 text-center">C# Variables</h2>
+                    <ul class="green1 mt-3">
+                        <li><p>Variables are containers for storing data values.</p></li>
+                        <li class="py-2"><p>In C#, there are different types of variables (defined with different keywords), for example:</p></li>
+                        <li class="mt-3 ms-5 "><p><b class="fs-5">int</b> - stores integers (whole numbers), without decimals, such as 123 or -123</p></li>
+                        <li class="ms-5 py-2"><p><b class="fs-5">double</b> - stores floating point numbers, with decimals, such as 19.99 or -19.99</p></li>
+                        <li class="ms-5 "><p><b class="fs-5">char</b> - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</p></li>
+                        <li class="ms-5 py-2"><p><b class="fs-5">string</b> - stores text, such as "Hello World". String values are surrounded by double quotes</p></li>
+                        <li class="ms-5 "><p><b class="fs-5">bool</b> - stores values with two states: true or false</p></li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <!-- Data Type -->
+    <section class="container-fluid container-xxl mt-3 mt-md-5">
+        <div class="row">
+            <div class="col-12 d-none d-md-block px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">Data Type</h2>
+                <table class="mt-2">
+                    <thead class="bg-green2">
+                        <tr>
+                            <th class="brown2">Data Type</th>
+                            <th class="brown2">Size</th>
+                            <th class="brown2">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-cream1 green2">
+                        <tr>
+                            <th>int</th>
+                            <th>4 bytes</th>
+                            <th>Stores whole numbers from -2,147,483,648 to 2,147,483,647</th>
+                        </tr>
+                        <tr>
+                            <th>long</th>
+                            <th>8 bytes</th>
+                            <th>Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</th>
+                        </tr>
+                        <tr>
+                            <th>float</th>
+                            <th>4 bytes</th>
+                            <th>Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits </th>
+                        </tr>
+                        <tr>
+                            <th>double</th>
+                            <th>8 bytes</th>
+                            <th>Stores fractional numbers. Sufficient for storing 15 decimal digits</th>
+                        </tr>
+                        <tr>
+                            <th>bool</th>
+                            <th>1 bytes</th>
+                            <th>Stores true or false values</th>
+                        </tr>
+                        <tr>
+                            <th>char</th>
+                            <th>2 bytes</th>
+                            <th>Stores a single character/letter, surrounded by single quotes</th>
+                        </tr>
+                        <tr>
+                            <th>string</th>
+                            <th>2 bytes per character</th>
+                            <th>Stores a sequence of characters, surrounded by double quotes</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Type in li -->
+    <section class="container-fluid container-xxl mt-4">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <div class="col-12 d-block d-md-none px-md-5">
+                    <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3">Data Types</h2>
+                    <ul class="green1 mt-4">
+                        <li class="py-2"><p><span class="brown1 medium fs-6">int : </span>Used to store integer values, typically 4 bytes on most modern systems.</p></li>
+                        <li><p><span class="brown1 medium fs-6">long : </span>Used to store integer values, typically 4 or 8 bytes, depending on the system.</p></li>
+                        <li><p><span class="brown1 medium fs-6">float : </span>Used to store floating-point numbers (real numbers) with single precision, typically 4 bytes.</p></li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">double : </span>Used to store floating-point numbers with double precision, typically 1 bytes.</li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">bool : </span>Stores true or false values, typically 8 bytes.</li>
+                        <li><p><span class="brown1 medium fs-6">char : </span>Used to store single characters, typically 2 byte.</p></li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">string : </span>Stores a sequence of characters, surrounded by double quotes, typically 2 bytes.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get User Input -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">Get User Input</h2>
+                <ul class="green1 mt-3">
+                    <li><p>You have already learned that Console.WriteLine() is used to output (print) values. Now we will use Console.ReadLine() to get user input.</p></li>
+                    <li class="py-2"><p>In the following example, the user can input his or hers username, which is stored in the variable userName. Then we print the value of userName:</p></li>
+                </ul>
+            </div>
+            <!-- example Get User Input -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="ms-3">// Type your username and press enter</p>
+                    <p class="green1 ms-3">console.writeline("<span class="brown1">Enter username :</span>")</p>
+                    <p class="mt-2 ms-3">// Create a string variable and get user input from the keyboard and store it in the variable</p>
+                    <p class="green2 ms-3">string userName = <span class="brown1">Console.ReadLine()</span>;</p>
+                    <p class="mt-2 ms-3">// Print the value of the variable (userName), which will display the input value</p>
+                    <p class="green2 ms-3">Console.WriteLine(<span class="brown1">"Username is : " <span class="green1">+</span> userName</span>);</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- C# - What is OOP? -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">C# - What is OOP?</h2>
+                <ul class="green1 mt-3">
+                    <li>OOP stands for Object-Oriented Programming.</li>
+                    <li class="py-2">Procedural programming is about writing procedures or methods that perform operations on the data, while object-oriented programming is about creating objects that contain both data and methods.</li>
+                </ul>
+                <h5 class="brown1"> Object-oriented programming has several advantages over procedural programming:</h5>
+                <ul class="green1 mt-3">
+                    <li><p>OOP is faster and easier to execute</p></li>
+                    <li class="py-2"><p>OOP provides a clear structure for the programs</p></li>
+                    <li><p>OOP helps to keep the C# code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug</p></li>
+                    <li class="py-2"><p>OOP makes it possible to create full reusable applications with less code and shorter development time</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- C# - What are Classes and Objects? -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">C# - What are Classes and Objects?</h2>
+                <h4 class="green2 py-2 semibold">Declaration of class :-</h4>
+                <ul class="green1 mt-3">
+                    <li><p><b class="fs-5">Modifiers :</b> A class can be public or internal etc. By default modifier of the class is internal.</p></li>
+                    <li class="py-2"><p><b class="fs-5">Keyword class :</b> A class keyword is used to declare the type class.</p></li>
+                    <li><p><b class="fs-5">Class Identifier :</b> The variable of type class is provided. The identifier(or name of the class) should begin with an initial letter which should be capitalized by convention.</p></li>
+                    <li class="py-2"><p><b class="fs-5">Base class or Super class :</b> The name of the class’s parent (superclass), if any, preceded by the : (colon). This is optional.</p></li>
+                    <li><p><b class="fs-5">Interfaces :</b> A comma-separated list of interfaces implemented by the class, if any, preceded by the : (colon). A class can implement more than one interface. This is optional.</p></li>
+                    <li class="py-2"><p><b class="fs-5">Body :</b> The class body is surrounded by { } (curly braces).</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Constructors -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">Constructors</h2>
+                <ul class="green1 mt-3">
+                    <li><p>A constructor is a special method that is used to initialize objects. The advantage of a constructor, is that it is called when an object of a class is created. It can be used to set initial values for fields:</p></li>
+                </ul>
+            </div>
+            <!-- example Constructors -->
+            <div class="ccol-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green2">class program</p>
+                    {
+                    <p class="green1 ms-4">static void Main(string[] args)</p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-5">Car Ford = <span class="brown1">new car</span><span class="green2">("Mustang", "Red", 1969</span>)</p>
+                    <p class="green1 ms-5">Car Opel = <span class="brown1">new car</span><span class="green2">("Astra", "White", 2005</span>)</p><br>
+                    <p class="green1 ms-5">console.writeLine
+                        ("<span class="brown1">Ford.model</span>")</p>
+                    <p class="green1 ms-5">console.writeLine
+                        ("<span class="brown1">Opel.model</span>")</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Access Modifiers -->
+    <section class="container-fluid container-xxl mt-3 mt-md-5">
+        <div class="row">
+            <div class="col-12 d-none d-md-block px-md-5">
+                <h2 class="green1 boldFont mt-5 d-flex text-center">Access Modifiers</h2>
+                <table class="mt-2">
+                    <thead class="bg-green2 brown2">
+                        <tr>
+                            <th>Modifier</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-cream1 green1">
+                        <tr>
+                            <th>public</th>
+                            <th>The code is accessible for all classes</th>
+                        </tr>
+                        <tr>
+                            <th>private</th>
+                            <th>The code is only accessible within the same class</th>
+                        </tr>
+                        <tr>
+                            <th>protected</th>
+                            <th>The code is accessible within the same class, or in a class that is inherited from that class. You will learn more about inheritance in a later chapter</th>
+                        </tr>
+                        <tr>
+                            <th>internal</th>
+                            <th>The code is only accessible within its own assembly, but not from another assembly. You will learn more about this in a later chapter</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Access Modifiers in li -->
+    <section class="container-fluid container-xxl mt-4">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <div class="col-12 d-block d-md-none px-md-5">
+                    <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3">Access Modifiers</h2>
+                    <ul class="green1 mt-4">
+                        <li class="py-2"><p><span class="brown1 medium fs-6">public : </span>The code is accessible for all classes.</p></li>
+                        <li><p><span class="brown1 medium fs-6">private : </span>The code is only accessible within the same class.</p></li>
+                        <li><p><span class="brown1 medium fs-6">protected : </span>The code is accessible within the same class, or in a class that is inherited from that class. You will learn more about inheritance in a later chapter.</p></li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">internal : </span>The code is only accessible within its own assembly, but not from another assembly. You will learn more about this in a later chapter.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties and Encapsulation -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">Properties and Encapsulation</h2>
+                <ul class="green1 mt-3">
+                    <li><p>Before we start to explain properties, you should have a basic understanding of "Encapsulation".</p></li>
+                    <li class="py-2"><p>The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:</p></li>
+                    <p>declare fields/variables as private</p>
+                    <li class="py-2"><p>provide public get and set methods, through properties, to access and update the value of a private field.</p></li>
+                    <li><p>The get method returns the value of the variable name.</li>
+                    <li class="py-2"><p>The set method assigns a value to the name variable. The value keyword represents the value we assign to the property.</p></li>
+                </ul>
+            </div>
+            <!-- example Properties and Encapsulation -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green2">class Person</p>
+                    {
+                    <p class="green1 ms-4">private string name; <span class="brown2">// field</span></p>
+                    <p class="green1 ms-4">public string Name <span class="brown2">// property</span></p>
+                    <span class="ms-4">{</span>
+                    <p class="ms-5">get { <span class="brown1">return name; </span>}</p>
+                    <p class="ms-5">set { <span>name = value; </span>}</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                    <p class="green2">class program</p>
+                    {
+                    <p class="green1 ms-4">static void Main(string[] args)</p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-4">Person myObj = <span class="brown1">new Person();</span></p>
+                    <p class="green1 ms-4">myObj.Name = "<span class="brown1">Liam</span>"</p>
+                    <p class="green1 ms-5">console.writeLine
+                        ("<span class="brown1">myObj.Name</span>")</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inheritance (Derived and Base Class) -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">Inheritance (Derived and Base Class)</h2>
+                <ul class="green1 mt-3">
+                    <li class="py-2"><p>In C#, it is possible to inherit fields and methods from one class to another. We group the "inheritance concept" into two categories:</p></li>
+                    <li class="ms-5 mt-3"><p><span class="boldFont">Derived Class (child)</span> - the class that inherits from another class</p></li>
+                    <li class="ms-5 py-2"><p><span class="boldFont">Base Class (parent)</span> - the class being inherited from</p></li>
+                    <li class="ms-5"><p>To inherit from a class, use the : <span class="boldFont">symbol.</span></p></li>
+                    <li class="py-2"><p>In the example below, the Car class (child) inherits the fields and methods from the Vehicle class (parent):</p></li>
+                </ul>
+            </div>
+            <!-- example Inheritance (Derived and Base Class) -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green2">class Vehicle<span class="brown2"> // base class (parent)</span></p>
+                    {
+                    <p class="green1 ms-4">public string brand =<span class="brown1">"Ford"</span>; <span class="brown2"> // Vehicle field</span></p>
+                    <p class="green1 ms-4">public void honk()<span class="brown2"> // Vehicle method </span></p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-5">console.writeLine("<span class="brown1">Tuut, tuut!</span>")</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                    <p class="green2">Class Car : <span class="brown1">Vehicle</span><span class="brown2"> // derived class (child)</span></p>
+                    {
+                    <p class="green1 ms-4">public string modelName = <span class="brown1">"Mustang"</span>;<span class="brown2"> // Car field</span></p>
+                    }
+                    <p class="green2">class Program</p>
+                    {
+                    <p class="green1 ms-4">static void Main(string[] args)</p>
+                    <span class="ms-4">{</span>
+                    <p class="brown2 ms-5"> // Create a myCar object</p>
+                    <p class="green1 ms-5">Car myCar = <span class="brown1">new Car()</span>;</p>
+                    <p class="brown2 ms-5">// Call the honk() method (From the Vehicle class) on the myCar object</p>
+                    <p class="brown1 ms-5">myCar.honk();</p>
+                    <p class="brown2 ms-5"> // Display the value of the brand field (from the Vehicle class) and the value of the modelName from the Car class</p>
+                    <p class="green1 ms-5">console.writeLine
+                        ("<span class="brown1">myCar.brand</span><span class="green1">+</span><span class="brown2">" "</span><span class="green1">+</span><span class="brown1">myCar.modelName</span>")</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Polymorphism and Overriding Methods -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">Polymorphism and Overriding Methods</h2>
+                <ul class="green1 mt-3">
+                    <li><p>Polymorphism means <b>"many forms"</b>, and it occurs when we have many classes that are related to each other by inheritance.</p></li>
+                    <li class="py-2"><p>Like we specified in the previous chapter; Inheritance lets us inherit fields and methods from another class.</p></li>
+                    <li><p>Polymorphism uses those methods to perform different tasks.</p></li>
+                    <li class="py-2"><p>This allows us to perform a single action in different ways.</p></li>
+                </ul>
+            </div>
+            <!-- example Polymorphism and Overriding Methods -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green2">class Animal<span class="brown2"> // Base class (parent)</span></p>
+                    {
+                    <p class="green1 ms-4">public void animalSound()</p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-5">Console.WriteLine("<span class="brown1">The animal makes a sound</span>");</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                    <p class="green1">Class Pig : <span class="green2">Animal</span><span class="brown2"> // Derived class (child) </span></p>
+                    {
+                    <p class="green1">public void animalSound()</p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-5">Console.WriteLine("<span class="brown1">The pig says: wee wee</span>");</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                    <p class="green1">Class Dog : <span class="green2">Animal</span><span class="brown2"> // Derived class (child) </span></p>
+                    {
+                    <p class="green1">public void animalSound()</p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-5">Console.WriteLine("<span class="brown1">The dog says: bow wow</span>");</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abstract Classes and Methods -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">Abstract Classes and Methods</h2>
+                <ul class="green1 mt-3">
+                    <li><p>Data abstraction is the process of hiding certain details and showing only essential information to the user.</p></li>
+                    <li class="py-2"><p>Abstraction can be achieved with either abstract classes or interfaces (which you will learn more about in the next chapter).</p></li>
+                    <p class="mt-3">The abstract keyword is used for classes and methods :</p>
+                    <li class="ms-5 py-2"><p><b class="fs-5">Abstract class:</b> is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).</p></li>
+                    <li class="ms-5"><p><b class="fs-5">Abstract method:</b> can only be used in an abstract class, and it does not have a body. The body is provided by the derived class (inherited from).</p></li>
+                </ul>
+            </div>
+            <!-- example Abstract Classes and Methods -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green2">abstract class Animal</p>
+                    {
+                    <p class="brown2 ms-4"> // Abstract method (does not have a body)</p>
+                    <p class="green1 ms-4">public abstract void animalSound();</p>
+                    <p class="brown2 ms-4"> // Regular method</p>
+                    <p class="green1 ms-4">public void sleep()</p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-5">Console.WriteLine("<span class="brown1">Zzz</span>");</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                    <p class="brown2"> // Derived class (inherit from Animal)</p>
+                    <p class="green1">Class Pig : <span class="green2">Animal</span></p>
+                    {
+                    <p class="green1 ms-4">public override void animalSound()</p>
+                    <span class="ms-4">{</span>
+                    <p class="brown2 ms-5">// The body of <b>animalSound()</b> is provided here</p>
+                    <p class="green1 ms-5">Console.WriteLine("<span class="brown1">The pig says: wee wee</span>");</p>
+                    <span class="ms-4">}</span><br>
+                    }
+                    <p class="green2">class Program</p>
+                    {
+                    <p class="green1 ms-4">static void Main(string[] args)</p>
+                    <span class="ms-4">{</span>
+                    <p class="green1 ms-5">Pig myPig = <span class="brown1">new Pig()</span>;<span class="brown2"> // Create a Pig object</span></p>
+                    <p class="green1 ms-5">myPig<span class="brown1">.</span><span class="green2">animalSound()</span>;<span class="brown2"> // Call the abstract method</span></p>
+                    <p class="green1 ms-5">myPig<span class="brown1">.</span><span class="green2">sleep()</span>;<span class="brown2"> // Call the regular method</span></p>
+                    <span class="ms-4">}</span><br>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- C# Exceptions -->
+    <section class="container-fluid container-xxl mt-5">
+        <div class="row">
+            <div class="col-12 col-12 px-sm-4 px-md-5">
+                <h2 class="green1 boldFont mt-5 fs-3 text-center">C# Exceptions</h2>
+                <ul class="green1 mt-3">
+                    <li>When executing C# code, different errors can occur: coding errors made by the programmer, errors due to wrong input, or other unforeseeable things.</li>
+                </ul>
+                <h4 class="green2 py-2 semibold">C# try and catch :-</h4>
+                <ul class="green1 mt-3">
+                    <li><p>The try statement allows you to define a block of code to be tested for errors while it is being executed.</p></li>
+                    <li class="py-2"><p>The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.</p></li>
+                    <li><p>The try and catch keywords come in pairs:</p></li>
+                </ul>
+                <!-- syntax C# Exceptions -->
+                <h4 class="green2 py-2 semibold">Syntax :-</h4>
+                <div class="green2">try</div>
+                {
+                <div class="brown2 ms-4"> // Block of code to try</div>
+                }
+                <div class="green2">catch (Exception e)</div>
+                {
+                <div class="brown2 ms-4"> // Block of code to handle errors</div>
+                }
+            </div>
+            <!-- example C# Exceptions -->
+            <div class="col-12 bg-cream1 px-sm-5 green1 py-3 ps-sm-4 ps-md-5 ps-4">
+                <div style="font-family: monospace;" class="px-4 py-4">
+                    <h4 class="green2 py-2 semibold">Example :-</h4>
+                    <p class="green2">try</p>
+                    {
+                    <p class="green1 ms-5">int[] myNumbers = <span class="brown1">{1, 2, 3}</span>;</p>
+                    <p class="green1 ms-5">Console.WriteLine ("<span class="brown1">myNumbers[10]</span>");</p>
+                    }
+                    <p class="green2">catch (Exception e)</p>
+                    {
+                    <p class="green1 ms-5">Console.WriteLine
+                        ("<span class="brown1">Something went wrong.</span>");</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- files -->
+    <section class="container-fluid container-xxl mt-3 mt-md-5">
+        <div class="row">
+            <div class="col-12 d-none d-md-block px-md-5">
+                <h2 class="green1 boldFont mt-5 text-center">files</h2>
+                <ul class="a">
+                    <li><p>The File class has many useful methods for creating and getting information about files. For example:</p></li>
+                </ul>
+                <table class="mt-2">
+                    <thead class="bg-green2 brown2">
+                        <tr>
+                            <th>Method</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-cream1 green1">
+                        <tr>
+                            <th>AppendText()</th>
+                            <th>Appends text at the end of an existing file</th>
+                        </tr>
+                        <tr>
+                            <th>Copy()</th>
+                            <th>Copies a file</th>
+                        </tr>
+                        <tr>
+                            <th>Create()</th>
+                            <th>Creates or overwrites a file</th>
+                        </tr>
+                        <tr>
+                            <th>Delete()</th>
+                            <th>Deletes a file</th>
+                        </tr>
+                        <tr>
+                            <th>Exists()</th>
+                            <th>Exists a file</th>
+                        </tr>
+                        <tr>
+                            <th>ReadAllText()</th>
+                            <th>Reads the contents of a file</th>
+                        </tr>
+                        <tr>
+                            <th>Replace()</th>
+                            <th>Replaces the contents of a file with the contents of another file</th>
+                        </tr>
+                        <tr>
+                            <th>WriteAllText()</th>
+                            <th>Creates a new file and writes the contents to it. If the file already exists, it will be overwritten</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- files in li -->
+    <section class="container-fluid container-xxl mt-4">
+        <div class="row">
+            <div class="col-12 px-sm-4 px-md-5">
+                <div class="col-12 d-block d-md-none px-md-5">
+                    <h2 class="green1 fs-3 boldFont text-center px-md-3 fs-3">files</h2>
+                    <ul class="green1 mt-3">
+                        <li class="py-2"><p><span class="brown1 medium fs-6">AppendText() : </span>Appends text at the end of an existing file.</p></li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">Copy() : </span>The code is only accessible within the same class.</p></li>
+                        <li><p><span class="brown1 medium fs-6">Create() : </span>Creates or overwrites a file.</p></li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">Delete() : </span>Deletes a file.</p></li>
+                        <li><p><span class="brown1 medium fs-6">Exists() : </span>Exists a file.</p></li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">ReadAllText() : </span>Reads the contents of a file.</p></li>
+                        <li><p><span class="brown1 medium fs-6">Replace() : </span>Replaces the contents of a file with the contents of another file.</p></li>
+                        <li class="py-2"><p><span class="brown1 medium fs-6">WriteAllText() : </span>Creates a new file and writes the contents to it. If the file already exists, it will be overwritten..</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER STARTS FROM HERE -->
+    <footer class="bg-cream1 mt-5">
+        <div class="container-fluid container-fluid-xl container-xxl bg-cream1">
+            <div class="row py-4 px-1 px-sm-3 px-lg-3 px-xxl-1 ">
+                <div class="col-12 col-lg-7">
+                    <h2 class="green1 boldFont">Contact Us</h2>
+                    <p class="green1 d-none d-sm-block">Have questions, suggestions, or just want to say hi? We'd love
+                        to hear from you! Drop us a line at contact@quizies.com and we'll get back to you as soon as
+                        possible.</p>
+                </div>
+                <div class="col-12 col-lg-5 align-items-lg-center d-lg-flex justify-content-lg-end">
+                    <form action="" class="">
+                        <div class="input-group">
+                            <input type="email" placeholder="youremail@gmail.com"
+                                class="cream1 bg-green1 border-0 py-1 px-2 px-md-4 d-flex align-items-center">
+                            <input type="submit" value="SUBMIT" class="submit-footer px-3 px-md-4 green1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bg-brown2">
+            <div class="container-fluid container-fluid-xl container-xxl">
+                <div class="row row-cols-5">
+                    <div class="col-12 d-flex justify-content-center justify-content-sm-start">
+                        <div class="col-8 col-sm-4 p-3 my-2 p-md-4 col-lg-3 col-xl-2">
+                            <a href="#" class="">
+                                <img src="images/2.png" alt="Logo" class="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center col-sm-6 col-lg-4 col-xl text-xl-start ps-xl-4">
+                        <h1 class="green1 py-2 boldFont fs-3 px-xl-2">About Us</h1>
+                        <p class="cream1 px-2">Welcome to <span class="green1">Quizzies</span>, your ultimate
+                            destination for fun and knowledge! We're passionate about quizzes and trivia, dedicated to
+                            providing you with an engaging platform to test your wits and learn something new every day.
+                        </p>
+                        <p class="green1 px-xl-2">Privacy Policy</p>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 pt-sm-0 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Learning path</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Web Development</li>
+                            <li>Python Developer</li>
+                            <li>Coding</li>
+                            <li>Foundations</li>
+                            <li>Front-end for Beginners</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 col-sm-6 col-lg-4 pt-lg-0 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Begginer's Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Scratch</li>
+                            <li>Blockly</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Intermediate Quiz</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>JAVA</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
+                            <li>Ruby</li>
+                            <li>PHP</li>
+                            <li>Swift</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-2 pt-lg-0 col-sm-6 col-lg-4 col-xl text-xl-start">
+                        <h1 class="green1 py-2 boldFont fs-3">Frameworks</h1>
+                        <ul class="list-unstyled cream1">
+                            <li>Django(Python)</li>
+                            <li>Ruby on Rails (Ruby)</li>
+                            <li>Express.js (JavaScript - Node.js)</li>
+                            <li>Laravel (PHP)</li>
+                            <li>ASP.NET Core (C#)</li>
+                            <li>Angular (JavaScript/TypeScript)</li>
+                            <li>React.js (JavaScript)</li>
+                            <li>Flutter (Dart)</li>
+                            <li>React Native (JavaScript)</li>
+                            <li>NativeScript (JavaScript)</li>
+                            <li>Unity (C#)</li>
+                        </ul>
+                    </div>
+                    <div class="text-center col-12 pt-3 pt-lg-0 col-sm-6 col-lg-4 col-xl-12 py-lg-0">
+                        <h1 class="green1 py-2 boldFont fs-3">Follow Us</h1>
+                        <ul class="list-unstyled cream1 d-flex justify-content-center col-xl-4 mx-xl-auto">
+                            <li class="col-1 mx-2"><a href="#"><img src="images/facebook.png" alt="facebook logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/instagram.png" alt="instagram logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/twitter.png" alt="twitter logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/linkedin.png" alt="linkdin logo"
+                                        class="img"></a></li>
+                            <li class="col-1 mx-2"><a href="#"><img src="images/email.png" alt="gmail logo"
+                                        class="img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="ruler bg-cream1"></div>
+                <div class="py-3 py-lg-4">
+                    <b class="green1">Copyright © 2024 Quizzies. All rights reserved.</b>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
